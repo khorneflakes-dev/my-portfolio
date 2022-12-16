@@ -3,7 +3,7 @@
     import Home1 from "./Home1.svelte";
     import LastProjects from "./LastProjects.svelte";
     import Proyectos from "./pages/Proyectos.svelte";
-    import Perfil from "./pages/Perfil.svelte";
+    import Skills from "./pages/Skills.svelte";
     import Sobremi from "./pages/Sobre mi.svelte";
     import Contactame from "./pages/Contactame.svelte";
     
@@ -18,9 +18,9 @@
             </div>
             <div class="description">
                 <Link to='/'>Inicio</Link>
-                <Link to='/Proyectos'>Proyectos</Link>
-                <Link to='/Perfil'>Perfil</Link>
                 <Link to='/Sobre mi'>Sobre mi</Link>
+                <Link to='/Skills'>Skills</Link>
+                <Link to='/Proyectos'>Proyectos</Link>
                 <Link to='/Contactame'>Contactame</Link>
             </div>
         </div>
@@ -50,8 +50,8 @@
         <Proyectos></Proyectos>
     </Route>
 
-    <Route path='Perfil'>
-        <Perfil></Perfil>
+    <Route path='Skills'>
+        <Skills></Skills>
     </Route>
 
     <Route path='Sobremi'>
@@ -77,7 +77,6 @@
         color: #303030;
         background-color: #D9D9D9;
         justify-content: space-between;
-        filter: opacity(30%);
     }
     .sidebar .foto-perfil{
         display: flex;
@@ -101,6 +100,10 @@
         padding-left: 2vw;
         margin-top: 5vh;
         gap: 1.5vh;
+        text-decoration: dashed;
+    }
+    a:link {
+        text-decoration: none;
     }
     .bottom-side{
         display: flex;

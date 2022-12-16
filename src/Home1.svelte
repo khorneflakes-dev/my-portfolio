@@ -6,7 +6,11 @@
     </div>
     <div class="position"><b>Analista</b> e <b>Ingeniero de Datos</b></div>
     <div class="description">
-        Soy un analista de datos con formación en análisis e ingeniería de datos, con experiencia en el rubro comercial. Me apasiona la programación y el diseño minimalista, utilizo estas habilidades para crear dashboards que se publican en forma de aplicaciones web. Mis productos son visualmente atractivos y fáciles de usar, diseñados para ayudar a los usuarios a tomar decisiones basadas en sus datos
+        Soy un analista de datos con formación en análisis e ingeniería de datos, con experiencia en el rubro comercial.
+        <br>
+        Me apasiona la programación y el diseño minimalista, utilizo estas habilidades para crear dashboards que se publican en forma de aplicaciones web.
+        <br>
+        Mis productos son visualmente atractivos y fáciles de usar, diseñados para ayudar a los usuarios a tomar decisiones basadas en sus datos
     </div>
 </div>
 
