@@ -5,5 +5,3 @@
 </script>
 
 <Sidebar/>
-<Home1/>
-<LastProjects/>
