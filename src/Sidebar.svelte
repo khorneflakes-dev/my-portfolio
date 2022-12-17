@@ -4,7 +4,7 @@
     import LastProjects from "./LastProjects.svelte";
     import Proyectos from "./pages/Proyectos.svelte";
     import Skills from "./pages/Skills.svelte";
-    import Sobremi from "./pages/Sobre mi.svelte";
+    import Sobre_mi from "./pages/Sobre_mi.svelte";
     import Contactame from "./pages/Contactame.svelte";
     
 </script>
@@ -17,11 +17,11 @@
                 <img src="./images/foto-perfil.png" alt="">
             </div>
             <div class="description">
-                <Link to='/'>Inicio</Link>
-                <Link to='/Sobre mi'>Sobre mi</Link>
-                <Link to='/Skills'>Skills</Link>
-                <Link to='/Proyectos'>Proyectos</Link>
-                <Link to='/Contactame'>Contactame</Link>
+                <div class="link"><Link to='/'>Inicio</Link></div>
+                <div class="link"><Link to='/Sobre_mi'>Sobre mi</Link></div>
+                <div class="link"><Link to='/Skills'>Skills</Link></div>
+                <div class="link"><Link to='/Proyectos'>Proyectos</Link></div>
+                <div class="link"><Link to='/Contactame'>Contactame</Link></div>
             </div>
         </div>
         <div class="bottom-side">
@@ -55,7 +55,7 @@
     </Route>
 
     <Route path='Sobremi'>
-        <Sobremi></Sobremi>
+        <Sobre_mi></Sobre_mi>
     </Route>
 
     <Route path='Contactame'>
@@ -75,7 +75,7 @@
         width: 16vw;
         height: 100vh;
         color: #303030;
-        background-color: #D9D9D9;
+        background-color: var(--color-secundario);
         justify-content: space-between;
     }
     .sidebar .foto-perfil{
@@ -102,9 +102,7 @@
         gap: 1.5vh;
         text-decoration: dashed;
     }
-    a:link {
-        text-decoration: none;
-    }
+
     .bottom-side{
         display: flex;
         justify-content: center;
@@ -114,6 +112,21 @@
     .bottom-side img{
         height: 4vh;
     }
-    
+    .link > :global(a) {
+        text-decoration: none;
+        color: var(--color-texto);
+    }
+    .link > :global(a:focus) {
+        color: var(--color-texto);
+        border-bottom: 1px solid var(--color-texto);
+    }
+    .link > :global(a:hover) {
+        color: var(--color-texto);
+        border-bottom: 1px solid var(--color-texto);
+    }
+    .link > :global(a:active) {
+        color: var(--color-texto);
+        border-bottom: 1px solid var(--color-texto);
+    }
 
 </style>
