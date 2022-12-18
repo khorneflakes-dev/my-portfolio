@@ -1,4 +1,4 @@
-export const images = [
+export const skills = [
     {
         name: 'Python',
         src: './images/skills/python.svg',

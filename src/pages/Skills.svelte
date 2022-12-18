@@ -1,5 +1,5 @@
 <script>
-    import { images } from "../images";
+    import { skills } from "../skills";
 </script>
 
 
@@ -8,7 +8,7 @@
     <div class="title">
         mis skills
     </div>
-    {#each images as {name, src} }
+    {#each skills as {name, src} }
     
     <div class="skill-container">
         <div class="image">
@@ -39,7 +39,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 500;
         margin-bottom: 2vh;
     }

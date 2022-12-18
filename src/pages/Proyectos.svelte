@@ -8,7 +8,7 @@
 </style> -->
 <script>
     import {projects} from '../projects'
-    import {images} from '../images'
+    import {skills} from '../skills'
 </script>
 <div class="proyectos">
 
@@ -25,7 +25,7 @@
                     <div class="tecnologias">
                         <div class="stack-subtitle">stack:</div>
                         <div class="stack-container">
-                            {#each images as {name, src} }
+                            {#each skills as {name, src} }
                             {#if stack.includes(name) }
                                 <img src="{src}" alt="">
                             {/if}
@@ -35,12 +35,16 @@
 
                     <div class="entregables">
                         <div class="version">version:</div>
+                        {#if pdf != ""}
                         <div class="static">
-                            <a href={pdf} target="_blank" rel="noopener noreferrer" >estatica</a>
-                        </div>
+                                <a href={pdf} target="_blank" rel="noopener noreferrer" >estatica</a>
+                            </div>
+                        {/if}
+                        {#if url != ""}
                         <div class="interactive">
-                            <a href={url} target="_blank" rel="noopener noreferrer" >interactiva</a>
-                        </div>
+                                <a href={url} target="_blank" rel="noopener noreferrer" >interactiva</a>
+                            </div>
+                        {/if}
                     </div>
                 </div>
             </div>

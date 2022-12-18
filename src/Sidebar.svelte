@@ -15,6 +15,7 @@
         <div class="top-side">
             <div class="foto-perfil">
                 <img src="./images/foto-perfil.png" alt="">
+                <div class="border"></div>
             </div>
             <div class="description">
                 <div class="link"><Link to='/'>Inicio</Link></div>
@@ -84,10 +85,25 @@
         align-items: center;
         flex-direction: column;
         margin-top: 10vh;
-        
+        border-radius: 20rem;
+        position: relative;
+        height: 10rem;
+        justify-content: center;
+    }
+    .border{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        background-color: #303030;
+        border-radius: 20rem;
     }
     .foto-perfil img{
         width: 50%;
+        transform: rotate(0deg);
+        position: absolute;
+        z-index: 10;
+        /* animation: myfirst 1.5s infinite linear;
+        animation: demoanimation 20s infinite linear; */
     }
     .description{
         display: flex;
@@ -128,5 +144,13 @@
         color: var(--color-texto);
         border-bottom: 1px solid var(--color-texto);
     }
+    /* @keyframes demoanimation{
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    } */
 
 </style>

@@ -22,7 +22,16 @@ export const projects = [
         preview: './images/projects/users.png',
         desc: "Realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado utilice Dash y Plotly para desarrollar una aplicación web",
         pdf: './pdfs/users.pdf',
-        stack: ['Python','Pandas', 'Dash & Plotly', 'Figma', 'Google Cloud SQL']
+        stack: ['Python','Pandas', 'Dash & Plotly', 'Figma', 'Google Cloud SQL'],
+        url:""
         
     },
+    {
+        title: "Dashboards de tendencia, riesgo y oportunidad para invertir en negocios en Estados Unidos",
+        preview: './images/projects/portfolio.jpg',
+        desc: 'my portfolio',
+        pdf: '',
+        url: '',
+        stack: ['Svelte', 'Javascript', 'HTML', 'CSS', 'Figma']
+    }
 ]
