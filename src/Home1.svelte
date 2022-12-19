@@ -22,7 +22,7 @@
         margin-left: 35vw;
         margin-right: 18vw;
         font-family: 'Roboto', sans-serif;
-        color: #303030;
+        color: var(--color-texto);
         padding-top: 10vh;
         display: flex;
         flex-direction: column;

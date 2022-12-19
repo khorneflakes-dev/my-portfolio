@@ -6,7 +6,23 @@
     import Skills from "./pages/Skills.svelte";
     import Sobre_mi from "./pages/Sobre_mi.svelte";
     import Contactame from "./pages/Contactame.svelte";
-    
+
+    let colorTheme = 'day'
+
+    function theme() {
+        if (colorTheme == 'day'){
+            document.documentElement.style.setProperty('--color-texto', 'white')
+            document.documentElement.style.setProperty('--color-principal', '#303030')
+            document.documentElement.style.setProperty('--color-secundario', '#343434')
+            colorTheme = 'night'
+        }
+        else if (colorTheme = 'day'){
+            document.documentElement.style.setProperty('--color-texto', '#303030')
+            document.documentElement.style.setProperty('--color-principal', '#white')
+            document.documentElement.style.setProperty('--color-secundario', '#d9d9d9')
+        }
+    }
+
 </script>
 
 <Router>
@@ -15,7 +31,7 @@
         <div class="top-side">
             <div class="foto-perfil">
                 <img src="./images/foto-perfil.png" alt="">
-                <div class="border"></div>
+                <!-- <div class="border"></div> -->
             </div>
             <div class="description">
                 <div class="link"><Link to='/'>Inicio</Link></div>
@@ -40,7 +56,13 @@
             </a>
         </div>
     </div>
-
+    <div class="theme">
+        <button on:click={theme} class="button-theme">
+            <img src="./images/theme/day.svg" alt="">
+            <img src="./images/theme/night.svg" alt="">
+        </button>
+    </div>
+    
     <Route path='/'>
         <Home1/>
         <LastProjects/>
@@ -79,6 +101,28 @@
         background-color: var(--color-secundario);
         justify-content: space-between;
     }
+    .theme{
+        display: flex;
+        position: fixed;
+        z-index: 20;
+        justify-content: center;
+        align-items: center;
+        right: 2rem;
+        top: 2rem;
+        height: 4rem;
+        width: 4rem;
+    }
+    .button-theme{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .button-theme img{
+        width: 100%;
+    }
     .sidebar .foto-perfil{
         display: flex;
         width: 100%;
@@ -90,13 +134,13 @@
         height: 10rem;
         justify-content: center;
     }
-    .border{
+    /* .border{
         position: absolute;
         width: 10rem;
         height: 10rem;
         background-color: #303030;
         border-radius: 20rem;
-    }
+    } */
     .foto-perfil img{
         width: 50%;
         transform: rotate(0deg);

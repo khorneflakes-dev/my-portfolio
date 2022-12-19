@@ -1,10 +1,14 @@
 <script>
     import { skills } from "../skills";
+    function demoFunction(){
+        alert('clicked')
+    }
 </script>
 
 
 <div class="skills">
 
+    <button on:click={demoFunction} >demo</button>
     <div class="title">
         mis skills
     </div>
@@ -25,7 +29,7 @@
         margin-left: 35vw;
         margin-right: 18vw;
         font-family: 'Roboto', sans-serif;
-        color: #303030;
+        color: var(--color-texto);
         padding-top: 7vh;
         display: flex;
         flex-wrap: wrap;
@@ -67,7 +71,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #303030;
+        color: var(--color-texto);
         font-size: 1.3rem;
         font-weight: 500;
         height: 20%;

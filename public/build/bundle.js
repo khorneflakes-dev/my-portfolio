@@ -2277,23 +2277,23 @@ var app = (function () {
     			t11 = text("\r\n        Me apasiona la programación y el diseño minimalista, utilizo estas habilidades para crear dashboards que se publican en forma de aplicaciones web.\r\n        ");
     			br1 = element("br");
     			t12 = text("\r\n        Mis productos son visualmente atractivos y fáciles de usar, diseñados para ayudar a los usuarios a tomar decisiones basadas en sus datos");
-    			attr_dev(div0, "class", "hola svelte-1wtg5wq");
+    			attr_dev(div0, "class", "hola svelte-11iw994");
     			add_location(div0, file$9, 1, 4, 41);
-    			attr_dev(div1, "class", "light svelte-1wtg5wq");
+    			attr_dev(div1, "class", "light svelte-11iw994");
     			add_location(div1, file$9, 3, 8, 104);
-    			attr_dev(div2, "class", "name svelte-1wtg5wq");
+    			attr_dev(div2, "class", "name svelte-11iw994");
     			add_location(div2, file$9, 4, 8, 142);
-    			attr_dev(div3, "class", "title svelte-1wtg5wq");
+    			attr_dev(div3, "class", "title svelte-11iw994");
     			add_location(div3, file$9, 2, 4, 75);
     			add_location(b0, file$9, 6, 26, 218);
     			add_location(b1, file$9, 6, 44, 236);
-    			attr_dev(div4, "class", "position svelte-1wtg5wq");
+    			attr_dev(div4, "class", "position svelte-11iw994");
     			add_location(div4, file$9, 6, 4, 196);
     			add_location(br0, file$9, 9, 8, 430);
     			add_location(br1, file$9, 11, 8, 600);
-    			attr_dev(div5, "class", "description svelte-1wtg5wq");
+    			attr_dev(div5, "class", "description svelte-11iw994");
     			add_location(div5, file$9, 7, 4, 273);
-    			attr_dev(div6, "class", "portfolio-description svelte-1wtg5wq");
+    			attr_dev(div6, "class", "portfolio-description svelte-11iw994");
     			add_location(div6, file$9, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -2690,17 +2690,17 @@ var app = (function () {
     			hr1 = element("hr");
     			t5 = space();
     			create_component(dash3.$$.fragment);
-    			attr_dev(div0, "class", "title svelte-nq79l");
+    			attr_dev(div0, "class", "title svelte-c9a4q1");
     			add_location(div0, file$5, 7, 4, 174);
-    			attr_dev(hr0, "class", "svelte-nq79l");
+    			attr_dev(hr0, "class", "svelte-c9a4q1");
     			add_location(hr0, file$5, 11, 27, 271);
     			attr_dev(div1, "class", "separador");
     			add_location(div1, file$5, 11, 4, 248);
-    			attr_dev(hr1, "class", "svelte-nq79l");
+    			attr_dev(hr1, "class", "svelte-c9a4q1");
     			add_location(hr1, file$5, 15, 27, 328);
     			attr_dev(div2, "class", "separador");
     			add_location(div2, file$5, 15, 4, 305);
-    			attr_dev(div3, "class", "projects svelte-nq79l");
+    			attr_dev(div3, "class", "projects svelte-c9a4q1");
     			add_location(div3, file$5, 6, 0, 146);
     		},
     		l: function claim(nodes) {
@@ -3379,7 +3379,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (11:4) {#each skills as {name, src}
+    // (15:4) {#each skills as {name, src}
     function create_each_block(ctx) {
     	let div2;
     	let div0;
@@ -3402,14 +3402,14 @@ var app = (function () {
     			t2 = space();
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[1])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-1k30dl0");
-    			add_location(img, file$3, 14, 12, 265);
-    			attr_dev(div0, "class", "image svelte-1k30dl0");
-    			add_location(div0, file$3, 13, 8, 232);
-    			attr_dev(div1, "class", "name svelte-1k30dl0");
-    			add_location(div1, file$3, 16, 8, 315);
-    			attr_dev(div2, "class", "skill-container svelte-1k30dl0");
-    			add_location(div2, file$3, 12, 4, 193);
+    			attr_dev(img, "class", "svelte-9jeg6s");
+    			add_location(img, file$3, 18, 12, 380);
+    			attr_dev(div0, "class", "image svelte-9jeg6s");
+    			add_location(div0, file$3, 17, 8, 347);
+    			attr_dev(div1, "class", "name svelte-9jeg6s");
+    			add_location(div1, file$3, 20, 8, 430);
+    			attr_dev(div2, "class", "skill-container svelte-9jeg6s");
+    			add_location(div2, file$3, 16, 4, 308);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -3430,7 +3430,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(11:4) {#each skills as {name, src}",
+    		source: "(15:4) {#each skills as {name, src}",
     		ctx
     	});
 
@@ -3439,8 +3439,12 @@ var app = (function () {
 
     function create_fragment$4(ctx) {
     	let div1;
-    	let div0;
+    	let button;
     	let t1;
+    	let div0;
+    	let t3;
+    	let mounted;
+    	let dispose;
     	let each_value = skills;
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -3452,29 +3456,40 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div1 = element("div");
+    			button = element("button");
+    			button.textContent = "demo";
+    			t1 = space();
     			div0 = element("div");
     			div0.textContent = "mis skills";
-    			t1 = space();
+    			t3 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "title svelte-1k30dl0");
-    			add_location(div0, file$3, 7, 4, 94);
-    			attr_dev(div1, "class", "skills svelte-1k30dl0");
-    			add_location(div1, file$3, 5, 0, 66);
+    			add_location(button, file$3, 10, 4, 157);
+    			attr_dev(div0, "class", "title svelte-9jeg6s");
+    			add_location(div0, file$3, 11, 4, 209);
+    			attr_dev(div1, "class", "skills svelte-9jeg6s");
+    			add_location(div1, file$3, 8, 0, 129);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
-    			append_dev(div1, div0);
+    			append_dev(div1, button);
     			append_dev(div1, t1);
+    			append_dev(div1, div0);
+    			append_dev(div1, t3);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(div1, null);
+    			}
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", demoFunction, false, false, false);
+    				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
@@ -3507,6 +3522,8 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div1);
     			destroy_each(each_blocks, detaching);
+    			mounted = false;
+    			dispose();
     		}
     	};
 
@@ -3521,6 +3538,10 @@ var app = (function () {
     	return block;
     }
 
+    function demoFunction() {
+    	alert('clicked');
+    }
+
     function instance$4($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Skills', slots, []);
@@ -3530,7 +3551,7 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Skills> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ skills });
+    	$$self.$capture_state = () => ({ skills, demoFunction });
     	return [];
     }
 
@@ -3738,7 +3759,7 @@ var app = (function () {
     /* src\Sidebar.svelte generated by Svelte v3.55.0 */
     const file = "src\\Sidebar.svelte";
 
-    // (21:34) <Link to='/'>
+    // (37:34) <Link to='/'>
     function create_default_slot_10(ctx) {
     	let t;
 
@@ -3758,14 +3779,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(21:34) <Link to='/'>",
+    		source: "(37:34) <Link to='/'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (22:34) <Link to='/Sobre_mi'>
+    // (38:34) <Link to='/Sobre_mi'>
     function create_default_slot_9(ctx) {
     	let t;
 
@@ -3785,14 +3806,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(22:34) <Link to='/Sobre_mi'>",
+    		source: "(38:34) <Link to='/Sobre_mi'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (23:34) <Link to='/Skills'>
+    // (39:34) <Link to='/Skills'>
     function create_default_slot_8(ctx) {
     	let t;
 
@@ -3812,14 +3833,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(23:34) <Link to='/Skills'>",
+    		source: "(39:34) <Link to='/Skills'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (24:34) <Link to='/Proyectos'>
+    // (40:34) <Link to='/Proyectos'>
     function create_default_slot_7(ctx) {
     	let t;
 
@@ -3839,14 +3860,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(24:34) <Link to='/Proyectos'>",
+    		source: "(40:34) <Link to='/Proyectos'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (25:34) <Link to='/Contactame'>
+    // (41:34) <Link to='/Contactame'>
     function create_default_slot_6(ctx) {
     	let t;
 
@@ -3866,14 +3887,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(25:34) <Link to='/Contactame'>",
+    		source: "(41:34) <Link to='/Contactame'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (44:4) <Route path='/'>
+    // (66:4) <Route path='/'>
     function create_default_slot_5(ctx) {
     	let home1;
     	let t;
@@ -3916,14 +3937,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(44:4) <Route path='/'>",
+    		source: "(66:4) <Route path='/'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (50:4) <Route path='Proyectos'>
+    // (72:4) <Route path='Proyectos'>
     function create_default_slot_4(ctx) {
     	let proyectos;
     	let current;
@@ -3955,14 +3976,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(50:4) <Route path='Proyectos'>",
+    		source: "(72:4) <Route path='Proyectos'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:4) <Route path='Skills'>
+    // (76:4) <Route path='Skills'>
     function create_default_slot_3(ctx) {
     	let skills;
     	let current;
@@ -3994,14 +4015,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(54:4) <Route path='Skills'>",
+    		source: "(76:4) <Route path='Skills'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (58:4) <Route path='Sobremi'>
+    // (80:4) <Route path='Sobremi'>
     function create_default_slot_2(ctx) {
     	let sobre_mi;
     	let current;
@@ -4033,14 +4054,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(58:4) <Route path='Sobremi'>",
+    		source: "(80:4) <Route path='Sobremi'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (62:4) <Route path='Contactame'>
+    // (84:4) <Route path='Contactame'>
     function create_default_slot_1(ctx) {
     	let contactame;
     	let current;
@@ -4072,66 +4093,74 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(62:4) <Route path='Contactame'>",
+    		source: "(84:4) <Route path='Contactame'>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (12:0) <Router>
+    // (28:0) <Router>
     function create_default_slot(ctx) {
-    	let div10;
-    	let div8;
-    	let div1;
+    	let div9;
+    	let div7;
+    	let div0;
     	let img0;
     	let img0_src_value;
     	let t0;
-    	let div0;
-    	let t1;
-    	let div7;
-    	let div2;
+    	let div6;
+    	let div1;
     	let link0;
+    	let t1;
+    	let div2;
+    	let link1;
     	let t2;
     	let div3;
-    	let link1;
+    	let link2;
     	let t3;
     	let div4;
-    	let link2;
+    	let link3;
     	let t4;
     	let div5;
-    	let link3;
-    	let t5;
-    	let div6;
     	let link4;
-    	let t6;
-    	let div9;
+    	let t5;
+    	let div8;
     	let a0;
     	let img1;
     	let img1_src_value;
-    	let t7;
+    	let t6;
     	let a1;
     	let img2;
     	let img2_src_value;
-    	let t8;
+    	let t7;
     	let a2;
     	let img3;
     	let img3_src_value;
-    	let t9;
+    	let t8;
     	let a3;
     	let img4;
     	let img4_src_value;
+    	let t9;
+    	let div10;
+    	let button;
+    	let img5;
+    	let img5_src_value;
     	let t10;
-    	let route0;
+    	let img6;
+    	let img6_src_value;
     	let t11;
-    	let route1;
+    	let route0;
     	let t12;
-    	let route2;
+    	let route1;
     	let t13;
-    	let route3;
+    	let route2;
     	let t14;
+    	let route3;
+    	let t15;
     	let route4;
     	let current;
+    	let mounted;
+    	let dispose;
 
     	link0 = new Link({
     			props: {
@@ -4225,225 +4254,248 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div10 = element("div");
-    			div8 = element("div");
-    			div1 = element("div");
+    			div9 = element("div");
+    			div7 = element("div");
+    			div0 = element("div");
     			img0 = element("img");
     			t0 = space();
-    			div0 = element("div");
-    			t1 = space();
-    			div7 = element("div");
-    			div2 = element("div");
+    			div6 = element("div");
+    			div1 = element("div");
     			create_component(link0.$$.fragment);
+    			t1 = space();
+    			div2 = element("div");
+    			create_component(link1.$$.fragment);
     			t2 = space();
     			div3 = element("div");
-    			create_component(link1.$$.fragment);
+    			create_component(link2.$$.fragment);
     			t3 = space();
     			div4 = element("div");
-    			create_component(link2.$$.fragment);
+    			create_component(link3.$$.fragment);
     			t4 = space();
     			div5 = element("div");
-    			create_component(link3.$$.fragment);
-    			t5 = space();
-    			div6 = element("div");
     			create_component(link4.$$.fragment);
-    			t6 = space();
-    			div9 = element("div");
+    			t5 = space();
+    			div8 = element("div");
     			a0 = element("a");
     			img1 = element("img");
-    			t7 = space();
+    			t6 = space();
     			a1 = element("a");
     			img2 = element("img");
-    			t8 = space();
+    			t7 = space();
     			a2 = element("a");
     			img3 = element("img");
-    			t9 = space();
+    			t8 = space();
     			a3 = element("a");
     			img4 = element("img");
+    			t9 = space();
+    			div10 = element("div");
+    			button = element("button");
+    			img5 = element("img");
     			t10 = space();
-    			create_component(route0.$$.fragment);
+    			img6 = element("img");
     			t11 = space();
-    			create_component(route1.$$.fragment);
+    			create_component(route0.$$.fragment);
     			t12 = space();
-    			create_component(route2.$$.fragment);
+    			create_component(route1.$$.fragment);
     			t13 = space();
-    			create_component(route3.$$.fragment);
+    			create_component(route2.$$.fragment);
     			t14 = space();
+    			create_component(route3.$$.fragment);
+    			t15 = space();
     			create_component(route4.$$.fragment);
     			if (!src_url_equal(img0.src, img0_src_value = "./images/foto-perfil.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-nuso9o");
-    			add_location(img0, file, 16, 16, 524);
-    			attr_dev(div0, "class", "border svelte-nuso9o");
-    			add_location(div0, file, 17, 16, 585);
-    			attr_dev(div1, "class", "foto-perfil svelte-nuso9o");
-    			add_location(div1, file, 15, 12, 481);
-    			attr_dev(div2, "class", "link svelte-nuso9o");
-    			add_location(div2, file, 20, 16, 688);
-    			attr_dev(div3, "class", "link svelte-nuso9o");
-    			add_location(div3, file, 21, 16, 756);
-    			attr_dev(div4, "class", "link svelte-nuso9o");
-    			add_location(div4, file, 22, 16, 834);
-    			attr_dev(div5, "class", "link svelte-nuso9o");
-    			add_location(div5, file, 23, 16, 908);
-    			attr_dev(div6, "class", "link svelte-nuso9o");
-    			add_location(div6, file, 24, 16, 988);
-    			attr_dev(div7, "class", "description svelte-nuso9o");
-    			add_location(div7, file, 19, 12, 645);
-    			attr_dev(div8, "class", "top-side");
-    			add_location(div8, file, 14, 8, 445);
+    			attr_dev(img0, "class", "svelte-173s3iq");
+    			add_location(img0, file, 32, 16, 1232);
+    			attr_dev(div0, "class", "foto-perfil svelte-173s3iq");
+    			add_location(div0, file, 31, 12, 1189);
+    			attr_dev(div1, "class", "link svelte-173s3iq");
+    			add_location(div1, file, 36, 16, 1405);
+    			attr_dev(div2, "class", "link svelte-173s3iq");
+    			add_location(div2, file, 37, 16, 1473);
+    			attr_dev(div3, "class", "link svelte-173s3iq");
+    			add_location(div3, file, 38, 16, 1551);
+    			attr_dev(div4, "class", "link svelte-173s3iq");
+    			add_location(div4, file, 39, 16, 1625);
+    			attr_dev(div5, "class", "link svelte-173s3iq");
+    			add_location(div5, file, 40, 16, 1705);
+    			attr_dev(div6, "class", "description svelte-173s3iq");
+    			add_location(div6, file, 35, 12, 1362);
+    			attr_dev(div7, "class", "top-side");
+    			add_location(div7, file, 30, 8, 1153);
     			if (!src_url_equal(img1.src, img1_src_value = "./images/github.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "github-logo");
-    			attr_dev(img1, "class", "svelte-nuso9o");
-    			add_location(img1, file, 29, 16, 1243);
+    			attr_dev(img1, "class", "svelte-173s3iq");
+    			add_location(img1, file, 45, 16, 1960);
     			attr_dev(a0, "href", "https://github.com/khorneflakes-dev");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file, 28, 12, 1137);
+    			add_location(a0, file, 44, 12, 1854);
     			if (!src_url_equal(img2.src, img2_src_value = "./images/linkedin.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "linkedin-logo");
-    			attr_dev(img2, "class", "svelte-nuso9o");
-    			add_location(img2, file, 32, 16, 1436);
+    			attr_dev(img2, "class", "svelte-173s3iq");
+    			add_location(img2, file, 48, 16, 2153);
     			attr_dev(a1, "href", "https://www.linkedin.com/in/khorneflakes/");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file, 31, 12, 1324);
+    			add_location(a1, file, 47, 12, 2041);
     			if (!src_url_equal(img3.src, img3_src_value = "./images/whatsapp.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "whatsapp-logo");
-    			attr_dev(img3, "class", "svelte-nuso9o");
-    			add_location(img3, file, 35, 16, 1617);
+    			attr_dev(img3, "class", "svelte-173s3iq");
+    			add_location(img3, file, 51, 16, 2334);
     			attr_dev(a2, "href", "https://wa.me/59169839682");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "rel", "noopener noreferrer");
-    			add_location(a2, file, 34, 12, 1521);
+    			add_location(a2, file, 50, 12, 2238);
     			if (!src_url_equal(img4.src, img4_src_value = "./images/telegram.svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "telegram-logo");
-    			attr_dev(img4, "class", "svelte-nuso9o");
-    			add_location(img4, file, 38, 16, 1801);
+    			attr_dev(img4, "class", "svelte-173s3iq");
+    			add_location(img4, file, 54, 16, 2518);
     			attr_dev(a3, "href", "https://t.me/khorneflakesdev");
     			attr_dev(a3, "target", "_blank");
     			attr_dev(a3, "rel", "noopener noreferrer");
-    			add_location(a3, file, 37, 12, 1702);
-    			attr_dev(div9, "class", "bottom-side svelte-nuso9o");
-    			add_location(div9, file, 27, 8, 1098);
-    			attr_dev(div10, "class", "sidebar svelte-nuso9o");
-    			add_location(div10, file, 13, 4, 414);
+    			add_location(a3, file, 53, 12, 2419);
+    			attr_dev(div8, "class", "bottom-side svelte-173s3iq");
+    			add_location(div8, file, 43, 8, 1815);
+    			attr_dev(div9, "class", "sidebar svelte-173s3iq");
+    			add_location(div9, file, 29, 4, 1122);
+    			if (!src_url_equal(img5.src, img5_src_value = "./images/theme/day.svg")) attr_dev(img5, "src", img5_src_value);
+    			attr_dev(img5, "alt", "");
+    			attr_dev(img5, "class", "svelte-173s3iq");
+    			add_location(img5, file, 60, 12, 2712);
+    			if (!src_url_equal(img6.src, img6_src_value = "./images/theme/night.svg")) attr_dev(img6, "src", img6_src_value);
+    			attr_dev(img6, "alt", "");
+    			attr_dev(img6, "class", "svelte-173s3iq");
+    			add_location(img6, file, 61, 12, 2767);
+    			attr_dev(button, "class", "button-theme svelte-173s3iq");
+    			add_location(button, file, 59, 8, 2652);
+    			attr_dev(div10, "class", "theme svelte-173s3iq");
+    			add_location(div10, file, 58, 4, 2623);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div10, anchor);
-    			append_dev(div10, div8);
-    			append_dev(div8, div1);
-    			append_dev(div1, img0);
-    			append_dev(div1, t0);
-    			append_dev(div1, div0);
-    			append_dev(div8, t1);
-    			append_dev(div8, div7);
-    			append_dev(div7, div2);
-    			mount_component(link0, div2, null);
-    			append_dev(div7, t2);
-    			append_dev(div7, div3);
-    			mount_component(link1, div3, null);
-    			append_dev(div7, t3);
-    			append_dev(div7, div4);
-    			mount_component(link2, div4, null);
-    			append_dev(div7, t4);
-    			append_dev(div7, div5);
-    			mount_component(link3, div5, null);
-    			append_dev(div7, t5);
+    			insert_dev(target, div9, anchor);
+    			append_dev(div9, div7);
+    			append_dev(div7, div0);
+    			append_dev(div0, img0);
+    			append_dev(div7, t0);
     			append_dev(div7, div6);
-    			mount_component(link4, div6, null);
-    			append_dev(div10, t6);
-    			append_dev(div10, div9);
-    			append_dev(div9, a0);
+    			append_dev(div6, div1);
+    			mount_component(link0, div1, null);
+    			append_dev(div6, t1);
+    			append_dev(div6, div2);
+    			mount_component(link1, div2, null);
+    			append_dev(div6, t2);
+    			append_dev(div6, div3);
+    			mount_component(link2, div3, null);
+    			append_dev(div6, t3);
+    			append_dev(div6, div4);
+    			mount_component(link3, div4, null);
+    			append_dev(div6, t4);
+    			append_dev(div6, div5);
+    			mount_component(link4, div5, null);
+    			append_dev(div9, t5);
+    			append_dev(div9, div8);
+    			append_dev(div8, a0);
     			append_dev(a0, img1);
-    			append_dev(div9, t7);
-    			append_dev(div9, a1);
+    			append_dev(div8, t6);
+    			append_dev(div8, a1);
     			append_dev(a1, img2);
-    			append_dev(div9, t8);
-    			append_dev(div9, a2);
+    			append_dev(div8, t7);
+    			append_dev(div8, a2);
     			append_dev(a2, img3);
-    			append_dev(div9, t9);
-    			append_dev(div9, a3);
+    			append_dev(div8, t8);
+    			append_dev(div8, a3);
     			append_dev(a3, img4);
-    			insert_dev(target, t10, anchor);
-    			mount_component(route0, target, anchor);
+    			insert_dev(target, t9, anchor);
+    			insert_dev(target, div10, anchor);
+    			append_dev(div10, button);
+    			append_dev(button, img5);
+    			append_dev(button, t10);
+    			append_dev(button, img6);
     			insert_dev(target, t11, anchor);
-    			mount_component(route1, target, anchor);
+    			mount_component(route0, target, anchor);
     			insert_dev(target, t12, anchor);
-    			mount_component(route2, target, anchor);
+    			mount_component(route1, target, anchor);
     			insert_dev(target, t13, anchor);
-    			mount_component(route3, target, anchor);
+    			mount_component(route2, target, anchor);
     			insert_dev(target, t14, anchor);
+    			mount_component(route3, target, anchor);
+    			insert_dev(target, t15, anchor);
     			mount_component(route4, target, anchor);
     			current = true;
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*theme*/ ctx[0], false, false, false);
+    				mounted = true;
+    			}
     		},
     		p: function update(ctx, dirty) {
     			const link0_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				link0_changes.$$scope = { dirty, ctx };
     			}
 
     			link0.$set(link0_changes);
     			const link1_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				link1_changes.$$scope = { dirty, ctx };
     			}
 
     			link1.$set(link1_changes);
     			const link2_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				link2_changes.$$scope = { dirty, ctx };
     			}
 
     			link2.$set(link2_changes);
     			const link3_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				link3_changes.$$scope = { dirty, ctx };
     			}
 
     			link3.$set(link3_changes);
     			const link4_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				link4_changes.$$scope = { dirty, ctx };
     			}
 
     			link4.$set(link4_changes);
     			const route0_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				route0_changes.$$scope = { dirty, ctx };
     			}
 
     			route0.$set(route0_changes);
     			const route1_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				route1_changes.$$scope = { dirty, ctx };
     			}
 
     			route1.$set(route1_changes);
     			const route2_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				route2_changes.$$scope = { dirty, ctx };
     			}
 
     			route2.$set(route2_changes);
     			const route3_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				route3_changes.$$scope = { dirty, ctx };
     			}
 
     			route3.$set(route3_changes);
     			const route4_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				route4_changes.$$scope = { dirty, ctx };
     			}
 
@@ -4477,22 +4529,26 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div10);
+    			if (detaching) detach_dev(div9);
     			destroy_component(link0);
     			destroy_component(link1);
     			destroy_component(link2);
     			destroy_component(link3);
     			destroy_component(link4);
-    			if (detaching) detach_dev(t10);
-    			destroy_component(route0, detaching);
+    			if (detaching) detach_dev(t9);
+    			if (detaching) detach_dev(div10);
     			if (detaching) detach_dev(t11);
-    			destroy_component(route1, detaching);
+    			destroy_component(route0, detaching);
     			if (detaching) detach_dev(t12);
-    			destroy_component(route2, detaching);
+    			destroy_component(route1, detaching);
     			if (detaching) detach_dev(t13);
-    			destroy_component(route3, detaching);
+    			destroy_component(route2, detaching);
     			if (detaching) detach_dev(t14);
+    			destroy_component(route3, detaching);
+    			if (detaching) detach_dev(t15);
     			destroy_component(route4, detaching);
+    			mounted = false;
+    			dispose();
     		}
     	};
 
@@ -4500,7 +4556,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(12:0) <Router>",
+    		source: "(28:0) <Router>",
     		ctx
     	});
 
@@ -4533,7 +4589,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const router_changes = {};
 
-    			if (dirty & /*$$scope*/ 1) {
+    			if (dirty & /*$$scope*/ 4) {
     				router_changes.$$scope = { dirty, ctx };
     			}
 
@@ -4567,6 +4623,21 @@ var app = (function () {
     function instance$1($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Sidebar', slots, []);
+    	let colorTheme = 'day';
+
+    	function theme() {
+    		if (colorTheme == 'day') {
+    			document.documentElement.style.setProperty('--color-texto', 'white');
+    			document.documentElement.style.setProperty('--color-principal', '#303030');
+    			document.documentElement.style.setProperty('--color-secundario', '#343434');
+    			colorTheme = 'night';
+    		} else if (colorTheme = 'day') {
+    			document.documentElement.style.setProperty('--color-texto', '#303030');
+    			document.documentElement.style.setProperty('--color-principal', '#white');
+    			document.documentElement.style.setProperty('--color-secundario', '#d9d9d9');
+    		}
+    	}
+
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -4582,10 +4653,20 @@ var app = (function () {
     		Proyectos,
     		Skills,
     		Sobre_mi,
-    		Contactame
+    		Contactame,
+    		colorTheme,
+    		theme
     	});
 
-    	return [];
+    	$$self.$inject_state = $$props => {
+    		if ('colorTheme' in $$props) colorTheme = $$props.colorTheme;
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [theme];
     }
 
     class Sidebar extends SvelteComponentDev {

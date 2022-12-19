@@ -26,7 +26,7 @@
         margin-top: 2vh;
         margin-bottom: 10vh;
         font-family: 'Roboto', sans-serif;
-        color: #303030;
+        color: var(--color-texto);
         display: flex;
         flex-direction: column;
     }
