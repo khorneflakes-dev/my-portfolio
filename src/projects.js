@@ -9,7 +9,7 @@ export const projects = [
         
     },
     {
-        title: "ICAO",
+        title: "ICAO Analisis de Accidentes Aereos",
         preview: './images/projects/icao.png',
         desc: "Desarrollé un dashboard en formato de aplicación web utilizando Dash y Plotly en base al analisis de varios datasets con informacion referente a las operaciones de una pizzeria del año 2015",
         pdf: './pdfs/icao.pdf',

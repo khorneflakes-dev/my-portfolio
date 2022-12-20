@@ -10,6 +10,8 @@
 	--color-principal: white;
 	--color-secundario: #D9D9D9;
 	--color-texto: #303030;
+	--color-shadow: #3a3a3a41;
+	--color-box: #b6b6b6;
 }
 
 body{

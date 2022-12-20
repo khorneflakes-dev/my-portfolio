@@ -1,14 +1,12 @@
 <script>
     import { skills } from "../skills";
-    function demoFunction(){
-        alert('clicked')
-    }
+
+
 </script>
 
 
 <div class="skills">
 
-    <button on:click={demoFunction} >demo</button>
     <div class="title">
         mis skills
     </div>
@@ -44,7 +42,7 @@
         display: flex;
         justify-content: center;
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 400;
         margin-bottom: 2vh;
     }
     .skill-container{

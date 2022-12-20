@@ -1,11 +1,12 @@
 <script>
     import { Router, Link, Route } from "svelte-routing";
-    import Home1 from "./Home1.svelte";
-    import LastProjects from "./LastProjects.svelte";
+    import Home1 from "./pages/Home1.svelte";
+    import LastProjects from "./pages/LastProjects.svelte";
     import Proyectos from "./pages/Proyectos.svelte";
     import Skills from "./pages/Skills.svelte";
     import Sobre_mi from "./pages/Sobre_mi.svelte";
     import Contactame from "./pages/Contactame.svelte";
+    import Footer from "./pages/Footer.svelte";
 
     let colorTheme = 'day'
 
@@ -14,12 +15,15 @@
             document.documentElement.style.setProperty('--color-texto', 'white')
             document.documentElement.style.setProperty('--color-principal', '#303030')
             document.documentElement.style.setProperty('--color-secundario', '#343434')
+            document.documentElement.style.setProperty('--color-shadow', '#ffffff86')
             colorTheme = 'night'
         }
-        else if (colorTheme = 'day'){
+        else if (colorTheme == 'night'){
             document.documentElement.style.setProperty('--color-texto', '#303030')
-            document.documentElement.style.setProperty('--color-principal', '#white')
+            document.documentElement.style.setProperty('--color-principal', 'white')
             document.documentElement.style.setProperty('--color-secundario', '#d9d9d9')
+            document.documentElement.style.setProperty('--color-shadow', '#3a3a3a41')
+            colorTheme = 'day'
         }
     }
 
@@ -34,32 +38,31 @@
                 <!-- <div class="border"></div> -->
             </div>
             <div class="description">
-                <div class="link"><Link to='/'>Inicio</Link></div>
-                <div class="link"><Link to='/Sobre_mi'>Sobre mi</Link></div>
-                <div class="link"><Link to='/Skills'>Skills</Link></div>
-                <div class="link"><Link to='/Proyectos'>Proyectos</Link></div>
-                <div class="link"><Link to='/Contactame'>Contactame</Link></div>
+                <div class="link"><Link to='/'><div class="link2">Inicio</div></Link></div>
+                <div class="link"><Link to='/Sobre_mi'><div class="link2">Sobre mi</div></Link></div>
+                <div class="link"><Link to='/Skills'><div class="link2">Skills</div></Link></div>
+                <div class="link"><Link to='/Proyectos'><div class="link2">Proyectos</div></Link></div>
+                <div class="link"><Link to='/Contactame'><div class="link2">Contactame</div></Link></div>
             </div>
         </div>
         <div class="bottom-side">
             <a href="https://github.com/khorneflakes-dev" target="_blank" rel="noopener noreferrer">
-                <img src="./images/github.svg" alt="github-logo">
+                <img src="./images/github-{colorTheme}.svg" alt="github-logo">
             </a>
             <a href="https://www.linkedin.com/in/khorneflakes/" target="_blank" rel="noopener noreferrer">
-                <img src="./images/linkedin.svg" alt="linkedin-logo">
+                <img src="./images/linkedin-{colorTheme}.svg" alt="linkedin-logo">
             </a>
             <a href="https://wa.me/59169839682" target="_blank" rel="noopener noreferrer">
-                <img src="./images/whatsapp.svg" alt="whatsapp-logo">
+                <img src="./images/whatsapp-{colorTheme}.svg" alt="whatsapp-logo">
             </a>
             <a href="https://t.me/khorneflakesdev" target="_blank" rel="noopener noreferrer">
-                <img src="./images/telegram.svg" alt="telegram-logo">
+                <img src="./images/telegram-{colorTheme}.svg" alt="telegram-logo">
             </a>
         </div>
     </div>
     <div class="theme">
         <button on:click={theme} class="button-theme">
-            <img src="./images/theme/day.svg" alt="">
-            <img src="./images/theme/night.svg" alt="">
+            <img src="./images/theme/{colorTheme}.svg" alt="">
         </button>
     </div>
     
@@ -77,14 +80,15 @@
         <Skills></Skills>
     </Route>
 
-    <Route path='Sobremi'>
+    <Route path='Sobre_mi'>
         <Sobre_mi></Sobre_mi>
     </Route>
 
     <Route path='Contactame'>
         <Contactame></Contactame>
     </Route>
-
+    <Footer/>
+    
 </Router>
 
 
@@ -159,7 +163,7 @@
         font-weight: 300;
         padding-left: 2vw;
         margin-top: 5vh;
-        gap: 1.5vh;
+        gap: 0.5vh;
         text-decoration: dashed;
     }
 
@@ -172,22 +176,34 @@
     .bottom-side img{
         height: 4vh;
     }
-    .link > :global(a) {
+    .link{
+        /* background-color: aquamarine; */
+        width: 80%;
+        height: 2.4rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1rem;
+        border-radius: 0.3rem;
+    }
+    
+    .description >:global(a).link{
+        display: none;
+    }
+    .link{
+        color: var(--color-texto);
         text-decoration: none;
-        color: var(--color-texto);
     }
-    .link > :global(a:focus) {
-        color: var(--color-texto);
-        border-bottom: 1px solid var(--color-texto);
+    .link:hover {
+        background-color: var(--color-box);
     }
-    .link > :global(a:hover) {
-        color: var(--color-texto);
-        border-bottom: 1px solid var(--color-texto);
+    .link:active {
+        background-color: var(--color-texto);
     }
-    .link > :global(a:active) {
-        color: var(--color-texto);
-        border-bottom: 1px solid var(--color-texto);
+    .link:active > :global(a) {
+        color: var(--color-principal);
     }
+
     /* @keyframes demoanimation{
         0% {
             transform: rotate(0deg);

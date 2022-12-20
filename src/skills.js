@@ -10,41 +10,6 @@ export const skills = [
         keyword: 'Bases de Datos',
     },
     {
-        name: 'CSS',
-        src: './images/skills/css.svg',
-        keyword: 'Disenio',
-    },
-    {
-        name: 'Excel',
-        src: './images/skills/excel.svg',
-        keyword: 'Analitica',
-    },
-    {
-        name: 'Figma',
-        src: './images/skills/figma.svg',
-        keyword: 'Disenio',
-    },
-    {
-        name: 'Git',
-        src: './images/skills/git.svg',
-        keyword: 'Otras skills',
-    },
-    {
-        name: 'HTML',
-        src: './images/skills/html.svg',
-        keyword: 'Disenio',
-    },
-    {
-        name: 'Javascript',
-        src: './images/skills/javascript.svg',
-        keyword: 'Otras',
-    },
-    {
-        name: 'Linux',
-        src: './images/skills/linux.svg',
-        keyword: 'Otras skills',
-    },
-    {
         name: 'Looker Studio',
         src: './images/skills/looker.svg',
         keyword: 'Analitica',
@@ -73,6 +38,41 @@ export const skills = [
         name: 'Power BI',
         src: './images/skills/powerbi.svg',
         keyword: 'Analitica',
+    },
+    {
+        name: 'Excel',
+        src: './images/skills/excel.svg',
+        keyword: 'Analitica',
+    },
+    {
+        name: 'Figma',
+        src: './images/skills/figma.svg',
+        keyword: 'Disenio',
+    },
+    {
+        name: 'CSS',
+        src: './images/skills/css.svg',
+        keyword: 'Disenio',
+    },
+    {
+        name: 'Git',
+        src: './images/skills/git.svg',
+        keyword: 'Otras skills',
+    },
+    {
+        name: 'HTML',
+        src: './images/skills/html.svg',
+        keyword: 'Disenio',
+    },
+    {
+        name: 'Javascript',
+        src: './images/skills/javascript.svg',
+        keyword: 'Otras',
+    },
+    {
+        name: 'Linux',
+        src: './images/skills/linux.svg',
+        keyword: 'Otras skills',
     },
     {
         name: 'SaSS',

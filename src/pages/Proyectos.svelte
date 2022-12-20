@@ -59,7 +59,7 @@
         margin-left: 25vw;
         margin-right: 18vw;
         font-family: 'Roboto', sans-serif;
-        color: #303030;
+        color: var(--color-texto);
         padding-top: 7vh;
         display: flex;
         flex-direction: column;
@@ -72,10 +72,15 @@
         height: 14rem;
         width: 100%;
         border-radius: 20px;
-        background-color: white;
-        filter: drop-shadow(-5px 5px 28px rgba(0, 0, 0, 0.25));
+        background-color: var(--color-principal);
+        border: 1px solid var(--color-shadow);
+        /* filter: drop-shadow(-5px 5px 8px var(--color-shadow)); */
         display: flex;
         
+    }
+    .proyecto a{
+        text-decoration: none;
+        color: var(--color-principal);
     }
     .preview{
         display: flex;
@@ -142,13 +147,10 @@
         border-radius: 0.4rem;
         height: 2.2rem;
         width: 7rem;
+        color: var(--color-principal);
     }
     .version{
         font-weight: 600;
-    }
-    a{
-        text-decoration: none;
-        color: var(--color-principal);
     }
 
 </style>
