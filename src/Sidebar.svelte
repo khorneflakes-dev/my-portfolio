@@ -38,11 +38,11 @@
                 <!-- <div class="border"></div> -->
             </div>
             <div class="description">
-                <div class="link"><Link to='/'><div class="link2">Inicio</div></Link></div>
-                <div class="link"><Link to='/Sobre_mi'><div class="link2">Sobre mi</div></Link></div>
-                <div class="link"><Link to='/Skills'><div class="link2">Skills</div></Link></div>
-                <div class="link"><Link to='/Proyectos'><div class="link2">Proyectos</div></Link></div>
-                <div class="link"><Link to='/Contactame'><div class="link2">Contactame</div></Link></div>
+                <div class="link"><Link to='/'><p>Inicio</p></Link></div>
+                <div class="link"><Link to='/Sobre_mi'><p>Sobre mi</p></Link></div>
+                <div class="link"><Link to='/Skills'><p>Skills</p></Link></div>
+                <div class="link"><Link to='/Proyectos'><p>Proyectos</p></Link></div>
+                <div class="link"><Link to='/Contactame'><p>Contactame</p></Link></div>
             </div>
         </div>
         <div class="bottom-side">
@@ -99,7 +99,7 @@
         display: flex;
         position: fixed;
         flex-direction: column;
-        width: 16vw;
+        width: 18.5rem;
         height: 100vh;
         color: #303030;
         background-color: var(--color-secundario);
@@ -157,7 +157,7 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        color: #303030;
+        color: var(--color-texto);
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 300;
@@ -178,30 +178,32 @@
     }
     .link{
         /* background-color: aquamarine; */
-        width: 80%;
+        width: 12rem;
         height: 2.4rem;
         display: flex;
         justify-content: left;
         align-items: center;
-        padding-left: 1rem;
-        border-radius: 0.3rem;
     }
     
-    .description >:global(a).link{
-        display: none;
-    }
-    .link{
+    .link >:global(a){
         color: var(--color-texto);
         text-decoration: none;
     }
-    .link:hover {
+    .link p{
+        height: 2.4rem;
+        display: flex;
+        align-items: center;
+        width: 12rem;
+        padding-left: 1rem;
+        border-radius: 0.4rem;
+    }
+    .link p:hover {
         background-color: var(--color-box);
     }
-    .link:active {
+    .link p:active {
         background-color: var(--color-texto);
-    }
-    .link:active > :global(a) {
         color: var(--color-principal);
+        font-weight: 400;
     }
 
     /* @keyframes demoanimation{

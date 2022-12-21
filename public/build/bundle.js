@@ -3878,21 +3878,21 @@ var app = (function () {
 
     // (41:34) <Link to='/'>
     function create_default_slot_10(ctx) {
-    	let div;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "Inicio";
-    			attr_dev(div, "class", "link2");
-    			add_location(div, file, 40, 47, 1705);
+    			p = element("p");
+    			p.textContent = "Inicio";
+    			attr_dev(p, "class", "svelte-caveuh");
+    			add_location(p, file, 40, 47, 1705);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, p, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -3909,21 +3909,21 @@ var app = (function () {
 
     // (42:34) <Link to='/Sobre_mi'>
     function create_default_slot_9(ctx) {
-    	let div;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "Sobre mi";
-    			attr_dev(div, "class", "link2");
-    			add_location(div, file, 41, 55, 1806);
+    			p = element("p");
+    			p.textContent = "Sobre mi";
+    			attr_dev(p, "class", "svelte-caveuh");
+    			add_location(p, file, 41, 55, 1788);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, p, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -3940,21 +3940,21 @@ var app = (function () {
 
     // (43:34) <Link to='/Skills'>
     function create_default_slot_8(ctx) {
-    	let div;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "Skills";
-    			attr_dev(div, "class", "link2");
-    			add_location(div, file, 42, 53, 1907);
+    			p = element("p");
+    			p.textContent = "Skills";
+    			attr_dev(p, "class", "svelte-caveuh");
+    			add_location(p, file, 42, 53, 1871);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, p, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -3971,21 +3971,21 @@ var app = (function () {
 
     // (44:34) <Link to='/Proyectos'>
     function create_default_slot_7(ctx) {
-    	let div;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "Proyectos";
-    			attr_dev(div, "class", "link2");
-    			add_location(div, file, 43, 56, 2009);
+    			p = element("p");
+    			p.textContent = "Proyectos";
+    			attr_dev(p, "class", "svelte-caveuh");
+    			add_location(p, file, 43, 56, 1955);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, p, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -4002,21 +4002,21 @@ var app = (function () {
 
     // (45:34) <Link to='/Contactame'>
     function create_default_slot_6(ctx) {
-    	let div;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "Contactame";
-    			attr_dev(div, "class", "link2");
-    			add_location(div, file, 44, 57, 2115);
+    			p = element("p");
+    			p.textContent = "Contactame";
+    			attr_dev(p, "class", "svelte-caveuh");
+    			add_location(p, file, 44, 57, 2043);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, p, anchor);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(p);
     		}
     	};
 
@@ -4443,68 +4443,68 @@ var app = (function () {
     			create_component(footer.$$.fragment);
     			if (!src_url_equal(img0.src, img0_src_value = "./images/foto-perfil.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-188yro3");
+    			attr_dev(img0, "class", "svelte-caveuh");
     			add_location(img0, file, 36, 16, 1501);
-    			attr_dev(div0, "class", "foto-perfil svelte-188yro3");
+    			attr_dev(div0, "class", "foto-perfil svelte-caveuh");
     			add_location(div0, file, 35, 12, 1458);
-    			attr_dev(div1, "class", "link svelte-188yro3");
+    			attr_dev(div1, "class", "link svelte-caveuh");
     			add_location(div1, file, 40, 16, 1674);
-    			attr_dev(div2, "class", "link svelte-188yro3");
-    			add_location(div2, file, 41, 16, 1767);
-    			attr_dev(div3, "class", "link svelte-188yro3");
-    			add_location(div3, file, 42, 16, 1870);
-    			attr_dev(div4, "class", "link svelte-188yro3");
-    			add_location(div4, file, 43, 16, 1969);
-    			attr_dev(div5, "class", "link svelte-188yro3");
-    			add_location(div5, file, 44, 16, 2074);
-    			attr_dev(div6, "class", "description svelte-188yro3");
+    			attr_dev(div2, "class", "link svelte-caveuh");
+    			add_location(div2, file, 41, 16, 1749);
+    			attr_dev(div3, "class", "link svelte-caveuh");
+    			add_location(div3, file, 42, 16, 1834);
+    			attr_dev(div4, "class", "link svelte-caveuh");
+    			add_location(div4, file, 43, 16, 1915);
+    			attr_dev(div5, "class", "link svelte-caveuh");
+    			add_location(div5, file, 44, 16, 2002);
+    			attr_dev(div6, "class", "description svelte-caveuh");
     			add_location(div6, file, 39, 12, 1631);
     			attr_dev(div7, "class", "top-side");
     			add_location(div7, file, 34, 8, 1422);
     			if (!src_url_equal(img1.src, img1_src_value = "./images/github-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "github-logo");
-    			attr_dev(img1, "class", "svelte-188yro3");
-    			add_location(img1, file, 49, 16, 2354);
+    			attr_dev(img1, "class", "svelte-caveuh");
+    			add_location(img1, file, 49, 16, 2264);
     			attr_dev(a0, "href", "https://github.com/khorneflakes-dev");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file, 48, 12, 2248);
+    			add_location(a0, file, 48, 12, 2158);
     			if (!src_url_equal(img2.src, img2_src_value = "./images/linkedin-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "linkedin-logo");
-    			attr_dev(img2, "class", "svelte-188yro3");
-    			add_location(img2, file, 52, 16, 2560);
+    			attr_dev(img2, "class", "svelte-caveuh");
+    			add_location(img2, file, 52, 16, 2470);
     			attr_dev(a1, "href", "https://www.linkedin.com/in/khorneflakes/");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file, 51, 12, 2448);
+    			add_location(a1, file, 51, 12, 2358);
     			if (!src_url_equal(img3.src, img3_src_value = "./images/whatsapp-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "whatsapp-logo");
-    			attr_dev(img3, "class", "svelte-188yro3");
-    			add_location(img3, file, 55, 16, 2754);
+    			attr_dev(img3, "class", "svelte-caveuh");
+    			add_location(img3, file, 55, 16, 2664);
     			attr_dev(a2, "href", "https://wa.me/59169839682");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "rel", "noopener noreferrer");
-    			add_location(a2, file, 54, 12, 2658);
+    			add_location(a2, file, 54, 12, 2568);
     			if (!src_url_equal(img4.src, img4_src_value = "./images/telegram-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "telegram-logo");
-    			attr_dev(img4, "class", "svelte-188yro3");
-    			add_location(img4, file, 58, 16, 2951);
+    			attr_dev(img4, "class", "svelte-caveuh");
+    			add_location(img4, file, 58, 16, 2861);
     			attr_dev(a3, "href", "https://t.me/khorneflakesdev");
     			attr_dev(a3, "target", "_blank");
     			attr_dev(a3, "rel", "noopener noreferrer");
-    			add_location(a3, file, 57, 12, 2852);
-    			attr_dev(div8, "class", "bottom-side svelte-188yro3");
-    			add_location(div8, file, 47, 8, 2209);
-    			attr_dev(div9, "class", "sidebar svelte-188yro3");
+    			add_location(a3, file, 57, 12, 2762);
+    			attr_dev(div8, "class", "bottom-side svelte-caveuh");
+    			add_location(div8, file, 47, 8, 2119);
+    			attr_dev(div9, "class", "sidebar svelte-caveuh");
     			add_location(div9, file, 33, 4, 1391);
     			if (!src_url_equal(img5.src, img5_src_value = "./images/theme/" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "");
-    			attr_dev(img5, "class", "svelte-188yro3");
-    			add_location(img5, file, 64, 12, 3158);
-    			attr_dev(button, "class", "button-theme svelte-188yro3");
-    			add_location(button, file, 63, 8, 3098);
-    			attr_dev(div10, "class", "theme svelte-188yro3");
-    			add_location(div10, file, 62, 4, 3069);
+    			attr_dev(img5, "class", "svelte-caveuh");
+    			add_location(img5, file, 64, 12, 3068);
+    			attr_dev(button, "class", "button-theme svelte-caveuh");
+    			add_location(button, file, 63, 8, 3008);
+    			attr_dev(div10, "class", "theme svelte-caveuh");
+    			add_location(div10, file, 62, 4, 2979);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div9, anchor);
