@@ -75,7 +75,7 @@ export const skills = [
         keyword: 'Otras skills',
     },
     {
-        name: 'SaSS',
+        name: 'Sass',
         src: './images/skills/sass.svg',
         keyword: 'Disenio',
     },

@@ -20,7 +20,7 @@ export const projects = [
     {
         title: "Sistema de recomendacion de Restaurantes",
         preview: './images/projects/users.png',
-        desc: "Realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado utilice Dash y Plotly para desarrollar una aplicación web",
+        desc: "Realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado utilice Dash y Plotly para desarrollar una aplicación web que permita a los usuarios tanto antiguos como nuevos, poder recibir recomendaciones de restaurantes que vayan acorde a sus experiencias previas",
         pdf: './pdfs/users.pdf',
         stack: ['Python','Pandas', 'Dash & Plotly', 'Figma', 'Google Cloud SQL'],
         url:""
@@ -28,10 +28,10 @@ export const projects = [
     },
     {
         title: "Dashboards de tendencia, riesgo y oportunidad para invertir en negocios en Estados Unidos",
-        preview: './images/projects/portfolio.jpg',
-        desc: 'my portfolio',
-        pdf: '',
+        preview: './images/projects/risk.jpg',
+        desc: 'Análisis sobre las tendencias, oportunidades y riesgos de inversion en distintos rubros, la data para este analisis se obtuvo de Yelp, una plataforma de reviews de negocios, tambien se elaboraron 3 dashboard en un trabajo colaborativo usando tecnologias de big data.',
+        pdf: './pdfs/trending.pdf',
         url: '',
-        stack: ['Svelte', 'Javascript', 'HTML', 'CSS', 'Figma']
+        stack: ['Python','Pandas','Google Cloud SQL','Dash & Plotly', 'Figma','Sass']
     }
 ]

@@ -8,7 +8,7 @@
 <div class="skills">
 
     <div class="title">
-        mis skills
+        <!-- mis skills -->
     </div>
     {#each skills as {name, src} }
     

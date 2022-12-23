@@ -16,6 +16,7 @@
             document.documentElement.style.setProperty('--color-principal', '#303030')
             document.documentElement.style.setProperty('--color-secundario', '#343434')
             document.documentElement.style.setProperty('--color-shadow', '#ffffff86')
+            document.documentElement.style.setProperty('--line-color', '#ffa705')
             colorTheme = 'night'
         }
         else if (colorTheme == 'night'){
@@ -23,6 +24,7 @@
             document.documentElement.style.setProperty('--color-principal', 'white')
             document.documentElement.style.setProperty('--color-secundario', '#d9d9d9')
             document.documentElement.style.setProperty('--color-shadow', '#3a3a3a41')
+            document.documentElement.style.setProperty('--line-color', '#5425d6')
             colorTheme = 'day'
         }
     }
@@ -42,7 +44,7 @@
                 <div class="link"><Link to='/Sobre_mi'><p>Sobre mi</p></Link></div>
                 <div class="link"><Link to='/Skills'><p>Skills</p></Link></div>
                 <div class="link"><Link to='/Proyectos'><p>Proyectos</p></Link></div>
-                <div class="link"><Link to='/Contactame'><p>Contactame</p></Link></div>
+                <div class="link"><p>Contactame</p></div>
             </div>
         </div>
         <div class="bottom-side">

@@ -13,21 +13,26 @@
     </div>
 
     <div class="title-exp">Experiencia</div>
-    <div class="experience">
-        <!-- <div class="line-container">
-            <div class="lines"></div>
-        </div> -->
-        <div class="experience-container">
-
-            <div class="exp">
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
                 <div class="cargo">Analista de datos en Henry (académico)</div>
                 <div class="tiempo">nov. 2022 a dic. 2022, Argentina</div>
-                <div class="exp-description">
-                    Como colaborador en un proyecto de análisis de datos, mis tareas principales fueron la creación y administración de pipelines de ETL (extracción, transformación y carga de datos) en datasets de gran tamaño. Además, construí y administré la base de datos en Google Cloud SQL que se usó en el proyecto.
-                    También realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado. Finalmente, utilicé las herramientas Dash y Plotly para desarrollar una aplicación web donde se mostraron los dos productos finales del proyecto.
-                </div>
+                <div class="exp-description">Como colaborador en un proyecto de análisis de datos, mis tareas principales fueron la creación y administración de pipelines de ETL (extracción, transformación y carga de datos) en datasets de gran tamaño. Además, construí y administré la base de datos en Google Cloud SQL que se usó en el proyecto. También realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado. Finalmente, utilicé las herramientas Dash y Plotly para desarrollar una aplicación web donde se mostraron los dos productos finales del proyecto.</div>
             </div>
-            <div class="exp">
+        </div>
+    </div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
                 <div class="cargo">Analista de datos en Henry (académico)</div>
                 <div class="tiempo">oct. 2022 a nov. 2022, Argentina</div>
                 <div class="exp-description">
@@ -35,20 +40,34 @@
                     Construí un dashboard que se puede visualizar en la web utilizando Dash y Plotly, con el fin de presentar los resultados del análisis.
                 </div>
             </div>
-    
-            <div class="exp">
+        </div>
+    </div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
                 <div class="cargo">Analista de datos en Maven Analytics (académico)</div>
                 <div class="tiempo">sept. 2022 a oct. 2022</div>
                 <div class="exp-description">
                     Desarrollé un dashboard en formato de aplicación web utilizando Dash y Plotly en base al analisis de varios datasets con informacion referente a las operaciones de una pizzeria del año 2015.
-                    El caso de estudio planteado por Maven Analytics se centró en la optimización del proceso de trabajo y atención a los clientes en una pizzería.
+                    El caso de estudio planteado por Maven Analytics se centró en la optimización del proceso de trabajo y atención a los clientes en una pizzería. <br>
                     Link de los requerimientos minimos del caso de estudio: 
                     <a href="https://www.mavenanalytics.io/blog/maven-pizza-challenge">Maven Pizza Challenge</a>
                     
                 </div>
             </div>
-    
-            <div class="exp">
+        </div>
+    </div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
                 <div class="cargo">Analista Comerial en Inox Supply Ingenieria</div>
                 <div class="tiempo">2020 a 2022, La Paz, Bolivia</div>
                 <div class="exp-description">
@@ -57,8 +76,15 @@
                     Comunicación con el equipo de marketing para coordinar la implementación de los planes de acción.
                 </div>
             </div>
-    
-            <div class="exp">
+        </div>
+    </div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line2"></div>
+            </div>
+            <div class="text-container">
                 <div class="cargo">Auxiliar de Auditoria en CMLP - Comisión de Desarrollo Económico y Financiero</div>
                 <div class="tiempo">2018 a 2020, La Paz, Bolivia</div>
                 <div class="exp-description">
@@ -67,27 +93,47 @@
                 </div>
             </div>
         </div>
-        
-        
     </div>
-    <div class="education">
-        <div class="title-education">Formacion</div>
-        <div class="ed">
-            <div class="ed-title">Data Scientist</div>
-            <div class="description">2022 a 2022 en Henry Bootcamp, Argentina</div>
+   
+    <div class="title-exp">Formacion</div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
+                <div class="cargo">Data Scientist</div>
+                <div class="exp-description">2022 a 2022 en Henry Bootcamp, Argentina</div>
+            </div>
         </div>
-
-        <div class="ed">
-            <div class="ed-title">Auditoria Contable (ultimo año)</div>
-            <div class="description">2020 a 2022 en Universidad NUR, Bolivia</div>
-        </div>
-
-        <div class="ed">
-            <div class="ed-title">Contabilidad General (Tecnicatura)</div>
-            <div class="description">2015 a 2018 en Instituto de Educacion Bancaria, Bolivia</div>
-        </div>
-
     </div>
+    <div class="demo-main">
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+            <div class="text-container">
+                <div class="cargo">Auditoria Contable (ultimo año)</div>
+                <div class="exp-description">2022 a 2022 en Henry Bootcamp, Argentina</div>
+            </div>
+        </div>
+    </div>
+    <div class="demo-main">
+
+        <div class="demo1">
+            <div class="line-container">
+                <div class="dot"></div>
+                <div class="line2"></div>
+            </div>
+            <div class="text-container">
+                <div class="cargo">Contabilidad General (Tecnicatura)</div>
+                <div class="exp-description">2015 a 2018 en Instituto de Educacion Bancaria, Bolivia</div>
+            </div>
+        </div>
+    </div>
+        
 </div>
 
 <style>
@@ -99,8 +145,9 @@
         padding-top: 10vh;
         display: flex;
         flex-direction: column;
-        gap: 1vh;
+        gap: 1rem;
         color: var(--color-texto);
+        margin-bottom: 3rem;
     }
     .header{
         display: flex;
@@ -115,36 +162,25 @@
     .header .description{
         font-size: 1rem;
         padding-left: 0.3rem;
+        line-height: 1.5rem;
     }
-    .experience{
-        display: flex;
-        gap: 2rem;
-    }
-    .experience-container{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0.5rem;
-        gap: 1.5rem;
-    }
-    .exp{
-        display: flex;
-        flex-direction: column;
-        gap: 0.3rem;
-    }
+
     .cargo{
         font-size: 1rem;
         font-weight: 500;
     }
     .tiempo{
         width: 100;
-        font-weight: 400;
-        filter: opacity(90%);
+        font-weight: 300;
     }
     .exp-description{
         font-weight: 400;
+        line-height: 1.3rem;
     }
     a{
         text-decoration: none;
+        color: var(--color-texto);
+        font-weight: 500;
     }
     /* .line-container{
         width: 0.1rem;
@@ -157,5 +193,51 @@
         border-radius: 50%;
         background: var(--color-texto);
     } */
-    
+    .demo-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .demo1{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .line-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 1rem;
+    }
+    .dot{
+        /* margin-top: 0.1rem; */
+        display: flex;
+        justify-content: center;
+        height: 1rem;
+        width: 1rem;
+        background-color: var(--line-color);
+        border-radius: 5rem;
+    }
+    .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 0.12rem;
+        background-color: var(--line-color);
+        margin-bottom: -1rem;
+    }
+    .line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 0.1rem;
+        background-color: var(--color-principal);
+        margin-bottom: -1rem;
+    }
 </style>

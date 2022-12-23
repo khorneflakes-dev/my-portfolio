@@ -1,5 +1,5 @@
 <div class="portfolio-description">
-    <div class="hola">Hola</div>
+    <div class="hola">Hola 👋</div>
     <div class="title">
         <div class="light">soy</div>
         <div class="name">Erick Mamani</div>
@@ -51,9 +51,9 @@
         margin-bottom: 2vh;
     }
     .description{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 300;
-        line-height: 2.3rem;
+        line-height: 1.8rem;
     }
     
 

@@ -5,7 +5,9 @@
 <div class="projects">
     <div class="title">Mis ultimos proyectos</div>
     
-    {#each projects as { title, preview, desc  } }
+    {#each projects as { title, preview, desc  }, i }
+        {#if i<2}
+            
         <div class="container">
             <img src={preview} alt={title}>
             <div class="description">
@@ -14,6 +16,7 @@
             </div>
         </div>
         <div class="separador"><hr></div>
+        {/if}
     {/each}
   
 </div>
@@ -43,7 +46,7 @@
         display: flex;
         padding-left: 1vw;
         gap: 1vw;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         align-items: center;
     }
     .container img{
