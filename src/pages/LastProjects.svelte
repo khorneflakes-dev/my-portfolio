@@ -25,8 +25,8 @@
     .projects{
         margin-left: 35vw;
         margin-right: 18vw;
-        margin-top: 2vh;
-        margin-bottom: 10vh;
+        margin-top: 0vh;
+        margin-bottom: 1vh;
         font-family: 'Roboto', sans-serif;
         color: var(--color-texto);
         display: flex;
@@ -34,7 +34,7 @@
     }
     .title{
         margin-top: 2vh;
-        margin-bottom: 4vh;
+        margin-bottom: 3vh;
         font-size: 1.6rem;
         font-weight: 600;
     }

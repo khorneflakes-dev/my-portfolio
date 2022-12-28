@@ -43,18 +43,41 @@
         display: flex;
     }
     .title .name{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 700;
     }
     .position{
-        font-size: 2.5rem;
-        margin-bottom: 2vh;
+        font-size: 2rem;
     }
     .description{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 300;
-        line-height: 1.8rem;
+        line-height: 1.5rem;
     }
     
+ /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.portfolio-description{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: aqua;
+    width: 100%;
+}
+}
 
 </style>

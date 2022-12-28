@@ -29,6 +29,10 @@
         }
     }
 
+    function burger() {
+
+    }
+
 </script>
 
 <Router>
@@ -65,6 +69,11 @@
     <div class="theme">
         <button on:click={theme} class="button-theme">
             <img src="./images/theme/{colorTheme}.svg" alt="">
+        </button>
+    </div>
+    <div class="slider-button">
+        <button on:click={burger} class='burger-button'>
+            <img src="./images/burger2.svg" alt="">
         </button>
     </div>
     
@@ -127,6 +136,28 @@
         width: 100%;
     }
     .button-theme img{
+        width: 100%;
+    }
+    .slider-button{
+        display: flex;
+        position: fixed;
+        z-index: 20;
+        justify-content: center;
+        align-items: center;
+        top: 2rem;
+        left: 2rem;
+        height: 3rem;
+        width: 3rem;
+    }
+    .burger-button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .burger-button img{
         width: 100%;
     }
     .sidebar .foto-perfil{
@@ -208,13 +239,28 @@
         font-weight: 400;
     }
 
-    /* @keyframes demoanimation{
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
-    } */
+ /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
 
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* CSS */
+.sidebar{
+        display: none;
+    }
+
+}
 </style>
