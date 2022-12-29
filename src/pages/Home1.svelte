@@ -72,12 +72,10 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-.portfolio-description{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: aqua;
-    width: 100%;
-}
+    .portfolio-description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 </style>

@@ -69,5 +69,28 @@
     .desc-extense{
         font-weight: 300;
     }
+@media (min-width: 481px) and (max-width: 767px) {
 
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .projects{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .container{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .container img{
+        width: 100%;
+    }
+}
 </style>

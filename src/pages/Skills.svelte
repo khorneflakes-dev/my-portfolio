@@ -7,14 +7,11 @@
 
 <div class="skills">
 
-    <div class="title">
-        <!-- mis skills -->
-    </div>
     {#each skills as {name, src} }
     
     <div class="skill-container">
         <div class="image">
-            <img src="{src}" alt="">
+            <img src="{src}" alt={name}>
         </div>
         <div class="name">{name}</div>
     </div>
@@ -35,15 +32,8 @@
         row-gap: 1rem;
         font-family: var(--fuente-principal);
         margin-bottom: 10vh;
-        
-    }
-    .title{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
-        font-weight: 400;
-        margin-bottom: 2vh;
+        background-color: var(--color-principal);
+
     }
     .skill-container{
         display: flex;
@@ -75,4 +65,23 @@
         height: 20%;
         text-align: center;
     }
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .skills{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        justify-content: center;
+        column-gap: 3rem;
+    }
+    .skill-container{
+        height: 6rem;
+        width: 3rem;
+    }
+    .name{
+        font-size: 0.7rem;
+    }
+}
+
 </style>

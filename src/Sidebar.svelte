@@ -29,15 +29,26 @@
         }
     }
 
+    let translatex = 0
     function burger() {
+        const div = document.getElementById('sidebar');
+        if (translatex == 100){
+            div.style.transform = 'translateX(-100%)';
+            translatex = 0
+        }
+        else if (translatex == 0){
+            div.style.transform = 'translateX(0%)';
+            translatex = 100
+        }
 
+        requestAnimationFrame(animarDiv);
     }
 
 </script>
 
 <Router>
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="top-side">
             <div class="foto-perfil">
                 <img src="./images/foto-perfil.png" alt="">
@@ -66,6 +77,7 @@
             </a>
         </div>
     </div>
+    <div class="navbar"></div>
     <div class="theme">
         <button on:click={theme} class="button-theme">
             <img src="./images/theme/{colorTheme}.svg" alt="">
@@ -73,7 +85,7 @@
     </div>
     <div class="slider-button">
         <button on:click={burger} class='burger-button'>
-            <img src="./images/burger2.svg" alt="">
+            <img src="./images/burger{colorTheme}.svg" alt="">
         </button>
     </div>
     
@@ -138,28 +150,7 @@
     .button-theme img{
         width: 100%;
     }
-    .slider-button{
-        display: flex;
-        position: fixed;
-        z-index: 20;
-        justify-content: center;
-        align-items: center;
-        top: 2rem;
-        left: 2rem;
-        height: 3rem;
-        width: 3rem;
-    }
-    .burger-button{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        display: flex;
-        height: 100%;
-        width: 100%;
-    }
-    .burger-button img{
-        width: 100%;
-    }
+
     .sidebar .foto-perfil{
         display: flex;
         width: 100%;
@@ -238,6 +229,9 @@
         color: var(--color-principal);
         font-weight: 400;
     }
+    .navbar{
+        display: none;
+    }
 
  /* 
 	##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -257,10 +251,51 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-/* CSS */
-.sidebar{
-        display: none;
+    .navbar{
+        display: flex;
+        height: 3.5rem;
+        background-color: var(--color-principal);
+        z-index: 18;
+        position: fixed;
+        width: 100%;
+    }
+    .sidebar{
+        /* display: none; */
+        /* transform: translateX(-5rem); */
+        transition: 0.3s;
+        width: 70%;
+        transform: translateX(-100%);
+        z-index: 17;
+    }
+    .slider-button{
+        display: flex;
+        position: fixed;
+        z-index: 19;
+        justify-content: center;
+        align-items: center;
+        top: 1rem;
+        left: 1rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .burger-button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .burger-button img{
+        width: 100%;
+    }
+    .theme{
+        height: 2.5rem;
+        width: 2.5rem;
+        top: 1rem;
+        right: 1rem;
     }
 
 }
+
 </style>
