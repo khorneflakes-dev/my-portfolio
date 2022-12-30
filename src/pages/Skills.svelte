@@ -74,6 +74,7 @@
         padding-left: 1rem;
         justify-content: center;
         column-gap: 3rem;
+        padding-top: 5rem;
     }
     .skill-container{
         height: 6rem;

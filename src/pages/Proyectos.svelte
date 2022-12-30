@@ -153,4 +153,22 @@
         font-weight: 600;
     }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .proyectos{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .proyecto{
+        padding-top: 0.5rem;
+        flex-direction: column;
+        background-color: aqua;
+        height: 100%;
+    }
+    .preview img{
+        width: 100%;
+    }
+    .stack{
+        flex-direction: column;
+    }
+}
 </style>

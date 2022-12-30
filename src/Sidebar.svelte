@@ -77,7 +77,9 @@
             </a>
         </div>
     </div>
-    <div class="navbar"></div>
+    <div class="navbar">
+        <!-- <img src="favicon.png" alt=""> -->
+    </div>
     <div class="theme">
         <button on:click={theme} class="button-theme">
             <img src="./images/theme/{colorTheme}.svg" alt="">
@@ -254,7 +256,7 @@
     .navbar{
         display: flex;
         height: 3.5rem;
-        background-color: var(--color-principal);
+        background-color: var(--color-secundario);
         z-index: 18;
         position: fixed;
         width: 100%;

@@ -240,4 +240,13 @@
         background-color: var(--color-principal);
         margin-bottom: -1rem;
     }
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .perfil{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
 </style>
