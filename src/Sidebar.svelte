@@ -78,7 +78,7 @@
         </div>
     </div>
     <div class="navbar">
-        <!-- <img src="favicon.png" alt=""> -->
+        <img src="favicon.png" alt="logo" class="navbar-logo">
     </div>
     <div class="theme">
         <button on:click={theme} class="button-theme">
@@ -260,6 +260,11 @@
         z-index: 18;
         position: fixed;
         width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar img{
+        height: 80%;
     }
     .sidebar{
         /* display: none; */

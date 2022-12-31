@@ -160,15 +160,40 @@
     }
     .proyecto{
         padding-top: 0.5rem;
+        padding-bottom: 1rem;
         flex-direction: column;
-        background-color: aqua;
         height: 100%;
+        
+    }
+    .preview{
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
     .preview img{
         width: 100%;
     }
     .stack{
         flex-direction: column;
+        width: 100%;
+    }
+    .description{
+        margin-top: 0.5rem;
+        gap: .3rem;
+    }
+    .tecnologias{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 0.5rem;
+    }
+    .entregables{
+        justify-content: flex-start;
+    }
+    .version{
+        display: none;
+    }
+    .stack-subtitle{
+        display: none;
     }
 }
 </style>
