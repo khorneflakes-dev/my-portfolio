@@ -94,23 +94,22 @@
     <Route path='/'>
         <Home1/>
         <LastProjects/>
-
     </Route>
     
-    <Route path='Proyectos'>
-        <Proyectos></Proyectos>
+    <Route path='/Proyectos'>
+        <Proyectos/>
     </Route>
 
-    <Route path='Skills'>
-        <Skills></Skills>
+    <Route path='/Skills'>
+        <Skills/>
     </Route>
 
-    <Route path='Sobre_mi'>
-        <Sobre_mi></Sobre_mi>
+    <Route path='/Sobre_mi'>
+        <Sobre_mi/>
     </Route>
 
-    <Route path='Contactame'>
-        <Contactame></Contactame>
+    <Route path='/Contactame'>
+        <Contactame/>
     </Route>
     <Footer/>
     
