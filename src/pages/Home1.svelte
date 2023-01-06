@@ -1,16 +1,16 @@
 <div class="portfolio-description">
-    <div class="hola">Hola 👋</div>
+    <div class="hola">Hey there 👋</div>
     <div class="title">
-        <div class="light">soy</div>
-        <div class="name">Erick Mamani</div>
+        <!-- <div class="light"></div> -->
+        <div class="name">I'm Erick Mamani</div>
     </div>
-    <div class="position"><b>Analista</b> e <b>Ingeniero de Datos</b></div>
+    <div class="position">Data Analyst</div>
     <div class="description">
-        Soy un analista de datos con formación en análisis e ingeniería de datos, con experiencia en el rubro comercial.
+        I have experience in the commercial field.
         <br>
-        Me apasiona la programación y el diseño minimalista, utilizo estas habilidades para crear dashboards que se publican en forma de aplicaciones web.
+        I am passionate about programming and minimalist design, and I use these skills to create dashboards that are published as web applications.
         <br>
-        Mis productos son visualmente atractivos y fáciles de usar, diseñados para ayudar a los usuarios a tomar decisiones basadas en sus datos
+        My products are visually appealing and easy to use, designed to help users make decisions based on their data.
     </div>
 </div>
 
@@ -23,7 +23,7 @@
         margin-right: 18vw;
         font-family: 'Roboto', sans-serif;
         color: var(--color-texto);
-        padding-top: 10vh;
+        padding-top: 8vh;
         display: flex;
         flex-direction: column;
         gap: 1vh;
@@ -37,17 +37,13 @@
         align-items: center;
         gap: 0.5vw;
     }
-    .title .light{
-        font-size: 1.5rem;
-        font-weight: 300;
-        display: flex;
-    }
     .title .name{
         font-size: 2rem;
         font-weight: 700;
     }
     .position{
         font-size: 2rem;
+        font-weight: 600;
     }
     .description{
         font-size: 1.2rem;

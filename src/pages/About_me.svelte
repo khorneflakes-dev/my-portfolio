@@ -1,18 +1,18 @@
 <div class="perfil">
     <div class="header">
-        <div class="title">Perfil</div>
+        <div class="title">Profile</div>
         <div class="description">
-            Soy un profesional con experiencia en el área comercial y auditoria publica. Mi primer acercamiento con los datos se dio a través del uso de software CRM para la toma de decisiones y la planificación de estrategias comerciales.
+            I am a professional with experience in the commercial and public audit area. My first approach to data was through the use of CRM software for decision making and planning of commercial strategies.
             <br>
-            Me inicie en el mundo de la programación de manera autodidacta, cuando escribí mi primer script de web scraping para obtener precios de una tienda virtual de licores.
-            Motivado por lo que podría llegar a hacer con Python, encontré el bootcamp de Henry.
-            Desde ahí he adquirido conocimientos en Python, SQL, GCP y herramientas de visualización de datos como Dash, Plotly, Tableau y Looker Studio.
+            I started in the world of programming in a self-taught way, when I wrote my first web scraping script to get prices from an online liquor store.
+            Motivated by what I could do with Python, I found Henry's bootcamp.
+            From there I have acquired knowledge in Python, SQL, GCP and data visualization tools such as Dash, Plotly, Tableau, and Looker Studio.
             <br>
-            Me interesa seguir desarrollando mis habilidades y adquiriendo nuevos conocimientos en este campo dinámico y emocionante, y estoy dispuesto a trabajar duro para lograr mis metas en el mundo de los datos.
+            I am interested in continuing to develop my skills and acquire new knowledge in this dynamic and exciting field, and I am willing to work hard to achieve my goals in the world of data.
         </div>
     </div>
 
-    <div class="title-exp">Experiencia</div>
+    <div class="title-exp">Experience</div>
     <div class="demo-main">
         <div class="demo1">
             <div class="line-container">
@@ -20,9 +20,9 @@
                 <div class="line"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Analista de datos en Henry (académico)</div>
-                <div class="tiempo">nov. 2022 a dic. 2022, Argentina</div>
-                <div class="exp-description">Como colaborador en un proyecto de análisis de datos, mis tareas principales fueron la creación y administración de pipelines de ETL (extracción, transformación y carga de datos) en datasets de gran tamaño. Además, construí y administré la base de datos en Google Cloud SQL que se usó en el proyecto. También realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado. Finalmente, utilicé las herramientas Dash y Plotly para desarrollar una aplicación web donde se mostraron los dos productos finales del proyecto.</div>
+                <div class="cargo">Data analyst at Henry (academic)</div>
+                <div class="tiempo">Nov. 2022 to Dec. 2022, Argentina</div>
+                <div class="exp-description">As a collaborator in a data analysis project, my main tasks were the creation and management of ETL pipelines (extract, transform, and load data) in large datasets. In addition, I built and managed the database in Google Cloud SQL that was used in the project. I also performed an analysis of user consumption trends to build a personalized recommendation system. Finally, I used the Dash and Plotly tools to develop a web application where the two final products of the project were shown.</div>
             </div>
         </div>
     </div>
@@ -33,11 +33,11 @@
                 <div class="line"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Analista de datos en Henry (académico)</div>
-                <div class="tiempo">oct. 2022 a nov. 2022, Argentina</div>
+                <div class="cargo">Data analyst at Henry (academic)</div>
+                <div class="tiempo">Oct. 2022 to Nov. 2022, Argentina</div>
                 <div class="exp-description">
-                    Realicé trabajos de ETL y análisis sobre datasets de accidentes aéreos obtenidos de la Organización de Aviación Civil Internacional.
-                    Construí un dashboard que se puede visualizar en la web utilizando Dash y Plotly, con el fin de presentar los resultados del análisis.
+                    I did ETL work and analysis on airplane accident datasets obtained from the International Civil Aviation Organization.
+                    I built a dashboard that can be viewed on the web using Dash and Plotly, in order to present the results of the analysis.
                 </div>
             </div>
         </div>
@@ -49,14 +49,13 @@
                 <div class="line"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Analista de datos en Maven Analytics (académico)</div>
-                <div class="tiempo">sept. 2022 a oct. 2022</div>
+                <div class="cargo">Data analyst at Maven Analytics (academic)</div>
+                <div class="tiempo">Sept. 2022 to Oct. 2022</div>
                 <div class="exp-description">
-                    Desarrollé un dashboard en formato de aplicación web utilizando Dash y Plotly en base al analisis de varios datasets con informacion referente a las operaciones de una pizzeria del año 2015.
-                    El caso de estudio planteado por Maven Analytics se centró en la optimización del proceso de trabajo y atención a los clientes en una pizzería. <br>
-                    Link de los requerimientos minimos del caso de estudio: 
+                    I developed a dashboard in the form of a web application using Dash and Plotly based on the analysis of several datasets containing information about the operations of a pizzeria in 2015.
+                    The case study proposed by Maven Analytics focused on the optimization of the work process and customer service in a pizzeria. <br>
+                    Link to the minimum requirements of the case study: 
                     <a href="https://www.mavenanalytics.io/blog/maven-pizza-challenge">Maven Pizza Challenge</a>
-                    
                 </div>
             </div>
         </div>
@@ -68,12 +67,12 @@
                 <div class="line"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Analista Comerial en Inox Supply Ingenieria</div>
-                <div class="tiempo">2020 a 2022, La Paz, Bolivia</div>
+                <div class="cargo">Commercial Analyst at Inox Supply Engineering</div>
+                <div class="tiempo">2020 to 2022, La Paz, Bolivia</div>
                 <div class="exp-description">
-                    Uso de herramientas de análisis de datos para identificar tendencias y patrones en el comportamiento de los clientes y el inventario.
-                    Elaboración de informes de análisis de datos de clientes e inventario usando tablas dinamicas y graficas.
-                    Comunicación con el equipo de marketing para coordinar la implementación de los planes de acción.
+                    Use of data analysis tools to identify trends and patterns in customer behavior and inventory.
+                    Preparation of data analysis reports on customers and inventory using dynamic tables and graphs.
+                    Communication with the marketing team to coordinate the implementation of action plans.
                 </div>
             </div>
         </div>
@@ -85,17 +84,17 @@
                 <div class="line2"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Auxiliar de Auditoria en CMLP - Comisión de Desarrollo Económico y Financiero</div>
-                <div class="tiempo">2018 a 2020, La Paz, Bolivia</div>
+                <div class="cargo">Auditing Assistant at CMLP - Commission for Economic and Financial Development</div>
+                <div class="tiempo">2018 to 2020, La Paz, Bolivia</div>
                 <div class="exp-description">
-                    Trabajo en el área de Control de Obras del municipio de La Paz en colaboración con el equipo de abogados y arquitectos, donde se lleva a cabo el seguimiento, análisis y evaluación de los contratos de obras públicas.
-                    Medición del cumplimiento de los plazos y presupuestos establecidos en los contratos, y del grado de satisfacción de la comunidad con las obras realizadas
+                    I worked in the Works Control area of the municipality of La Paz in collaboration with the team of lawyers and architects, where the monitoring, analysis, and evaluation of public works contracts is carried out.
+                    Measurement of compliance with the deadlines and budgets established in the contracts, and of the degree of community satisfaction with the works carried out.
                 </div>
             </div>
         </div>
     </div>
    
-    <div class="title-exp">Formacion</div>
+    <div class="title-exp">Education</div>
     <div class="demo-main">
         <div class="demo1">
             <div class="line-container">
@@ -104,7 +103,7 @@
             </div>
             <div class="text-container">
                 <div class="cargo">Data Scientist</div>
-                <div class="exp-description">2022 a 2022 en Henry Bootcamp, Argentina</div>
+                <div class="exp-description">2022 to 2022 at Henry Bootcamp, Argentina</div>
             </div>
         </div>
     </div>
@@ -115,8 +114,8 @@
                 <div class="line"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Auditoria Contable (ultimo año)</div>
-                <div class="exp-description">2022 a 2022 en Henry Bootcamp, Argentina</div>
+                <div class="cargo">Accounting Audit (last year)</div>
+                <div class="exp-description">2022 to 2022 at Universidad NUR, Bolivia</div>
             </div>
         </div>
     </div>
@@ -128,8 +127,8 @@
                 <div class="line2"></div>
             </div>
             <div class="text-container">
-                <div class="cargo">Contabilidad General (Tecnicatura)</div>
-                <div class="exp-description">2015 a 2018 en Instituto de Educacion Bancaria, Bolivia</div>
+                <div class="cargo">General Accounting (Technical Degree)</div>
+                <div class="exp-description">2015 to 2018 at Instituto de Educacion Bancaria, Bolivia</div>
             </div>
         </div>
     </div>
@@ -142,7 +141,7 @@
         margin-right: 18vw;
         font-family: var(--fuente-principal);
         color: var(--color-texto);
-        padding-top: 10vh;
+        padding-top: 2vh;
         display: flex;
         flex-direction: column;
         gap: 1rem;

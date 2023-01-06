@@ -2,9 +2,9 @@
     import { Router, Link, Route } from "svelte-routing";
     import Home1 from "./pages/Home1.svelte";
     import LastProjects from "./pages/LastProjects.svelte";
-    import Proyectos from "./pages/Proyectos.svelte";
+    import Projects from "./pages/Projects.svelte";
     import Skills from "./pages/Skills.svelte";
-    import Sobre_mi from "./pages/Sobre_mi.svelte";
+    import About_me from "./pages/About_me.svelte";
     import Contactame from "./pages/Contactame.svelte";
     import Footer from "./pages/Footer.svelte";
 
@@ -55,11 +55,11 @@
                 <!-- <div class="border"></div> -->
             </div>
             <div class="description">
-                <div class="link"><Link to='/'><p>Inicio</p></Link></div>
-                <div class="link"><Link to='/Sobre_mi'><p>Sobre mi</p></Link></div>
+                <div class="link"><Link to='/'><p>Home</p></Link></div>
+                <div class="link"><Link to='/About_me'><p>About me</p></Link></div>
                 <div class="link"><Link to='/Skills'><p>Skills</p></Link></div>
-                <div class="link"><Link to='/Proyectos'><p>Proyectos</p></Link></div>
-                <div class="link"><p>Contactame</p></div>
+                <div class="link"><Link to='/Projects'><p>Projects</p></Link></div>
+                <div class="link"><p>Contact</p></div>
             </div>
         </div>
         <div class="bottom-side">
@@ -96,16 +96,16 @@
         <LastProjects/>
     </Route>
     
-    <Route path='/Proyectos'>
-        <Proyectos/>
+    <Route path='/Projects'>
+        <Projects/>
     </Route>
 
     <Route path='/Skills'>
         <Skills/>
     </Route>
 
-    <Route path='/Sobre_mi'>
-        <Sobre_mi/>
+    <Route path='/About_me'>
+        <About_me/>
     </Route>
 
     <Route path='/Contactame'>

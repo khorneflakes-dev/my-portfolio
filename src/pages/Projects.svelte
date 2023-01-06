@@ -37,12 +37,12 @@
                         <div class="version">version:</div>
                         {#if pdf != ""}
                         <div class="static">
-                                <a href={pdf} target="_blank" rel="noopener noreferrer" >estatica</a>
+                                <a href={pdf} target="_blank" rel="noopener noreferrer" >static</a>
                             </div>
                         {/if}
                         {#if url != ""}
                         <div class="interactive">
-                                <a href={url} target="_blank" rel="noopener noreferrer" >interactiva</a>
+                                <a href={url} target="_blank" rel="noopener noreferrer" >interactive</a>
                             </div>
                         {/if}
                     </div>
@@ -60,7 +60,7 @@
         margin-right: 18vw;
         font-family: 'Roboto', sans-serif;
         color: var(--color-texto);
-        padding-top: 7vh;
+        padding-top: 0vh;
         display: flex;
         flex-direction: column;
         column-gap: 1rem;

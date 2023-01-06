@@ -1,9 +1,6 @@
 <script>
     import { skills } from "../skills";
-
-
 </script>
-
 
 <div class="skills">
 

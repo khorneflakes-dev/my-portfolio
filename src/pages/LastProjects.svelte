@@ -3,7 +3,7 @@
 </script>
 
 <div class="projects">
-    <div class="title">Mis ultimos proyectos</div>
+    <div class="title">My last projects</div>
     
     {#each projects as { title, preview, desc  }, i }
         {#if i<2}

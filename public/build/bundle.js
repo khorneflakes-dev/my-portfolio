@@ -2231,100 +2231,79 @@ var app = (function () {
     const file$7 = "src\\pages\\Home1.svelte";
 
     function create_fragment$8(ctx) {
-    	let div6;
+    	let div5;
     	let div0;
     	let t1;
-    	let div3;
+    	let div2;
     	let div1;
     	let t3;
-    	let div2;
+    	let div3;
     	let t5;
     	let div4;
-    	let b0;
-    	let t7;
-    	let b1;
-    	let t9;
-    	let div5;
-    	let t10;
+    	let t6;
     	let br0;
-    	let t11;
+    	let t7;
     	let br1;
-    	let t12;
+    	let t8;
 
     	const block = {
     		c: function create() {
-    			div6 = element("div");
+    			div5 = element("div");
     			div0 = element("div");
-    			div0.textContent = "Hola 👋";
+    			div0.textContent = "Hey there 👋";
     			t1 = space();
-    			div3 = element("div");
-    			div1 = element("div");
-    			div1.textContent = "soy";
-    			t3 = space();
     			div2 = element("div");
-    			div2.textContent = "Erick Mamani";
+    			div1 = element("div");
+    			div1.textContent = "I'm Erick Mamani";
+    			t3 = space();
+    			div3 = element("div");
+    			div3.textContent = "Data Analyst";
     			t5 = space();
     			div4 = element("div");
-    			b0 = element("b");
-    			b0.textContent = "Analista";
-    			t7 = text(" e ");
-    			b1 = element("b");
-    			b1.textContent = "Ingeniero de Datos";
-    			t9 = space();
-    			div5 = element("div");
-    			t10 = text("Soy un analista de datos con formación en análisis e ingeniería de datos, con experiencia en el rubro comercial.\r\n        ");
+    			t6 = text("I have experience in the commercial field.\r\n        ");
     			br0 = element("br");
-    			t11 = text("\r\n        Me apasiona la programación y el diseño minimalista, utilizo estas habilidades para crear dashboards que se publican en forma de aplicaciones web.\r\n        ");
+    			t7 = text("\r\n        I am passionate about programming and minimalist design, and I use these skills to create dashboards that are published as web applications.\r\n        ");
     			br1 = element("br");
-    			t12 = text("\r\n        Mis productos son visualmente atractivos y fáciles de usar, diseñados para ayudar a los usuarios a tomar decisiones basadas en sus datos");
-    			attr_dev(div0, "class", "hola svelte-alzmst");
+    			t8 = text("\r\n        My products are visually appealing and easy to use, designed to help users make decisions based on their data.");
+    			attr_dev(div0, "class", "hola svelte-1nxokup");
     			add_location(div0, file$7, 1, 4, 41);
-    			attr_dev(div1, "class", "light svelte-alzmst");
-    			add_location(div1, file$7, 3, 8, 107);
-    			attr_dev(div2, "class", "name svelte-alzmst");
-    			add_location(div2, file$7, 4, 8, 145);
-    			attr_dev(div3, "class", "title svelte-alzmst");
-    			add_location(div3, file$7, 2, 4, 78);
-    			add_location(b0, file$7, 6, 26, 221);
-    			add_location(b1, file$7, 6, 44, 239);
-    			attr_dev(div4, "class", "position svelte-alzmst");
-    			add_location(div4, file$7, 6, 4, 199);
-    			add_location(br0, file$7, 9, 8, 433);
-    			add_location(br1, file$7, 11, 8, 603);
-    			attr_dev(div5, "class", "description svelte-alzmst");
-    			add_location(div5, file$7, 7, 4, 276);
-    			attr_dev(div6, "class", "portfolio-description svelte-alzmst");
-    			add_location(div6, file$7, 0, 0, 0);
+    			attr_dev(div1, "class", "name svelte-1nxokup");
+    			add_location(div1, file$7, 4, 8, 156);
+    			attr_dev(div2, "class", "title svelte-1nxokup");
+    			add_location(div2, file$7, 2, 4, 83);
+    			attr_dev(div3, "class", "position svelte-1nxokup");
+    			add_location(div3, file$7, 6, 4, 214);
+    			add_location(br0, file$7, 9, 8, 347);
+    			add_location(br1, file$7, 11, 8, 511);
+    			attr_dev(div4, "class", "description svelte-1nxokup");
+    			add_location(div4, file$7, 7, 4, 260);
+    			attr_dev(div5, "class", "portfolio-description svelte-1nxokup");
+    			add_location(div5, file$7, 0, 0, 0);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div6, anchor);
-    			append_dev(div6, div0);
-    			append_dev(div6, t1);
-    			append_dev(div6, div3);
-    			append_dev(div3, div1);
-    			append_dev(div3, t3);
-    			append_dev(div3, div2);
-    			append_dev(div6, t5);
-    			append_dev(div6, div4);
-    			append_dev(div4, b0);
+    			insert_dev(target, div5, anchor);
+    			append_dev(div5, div0);
+    			append_dev(div5, t1);
+    			append_dev(div5, div2);
+    			append_dev(div2, div1);
+    			append_dev(div5, t3);
+    			append_dev(div5, div3);
+    			append_dev(div5, t5);
+    			append_dev(div5, div4);
+    			append_dev(div4, t6);
+    			append_dev(div4, br0);
     			append_dev(div4, t7);
-    			append_dev(div4, b1);
-    			append_dev(div6, t9);
-    			append_dev(div6, div5);
-    			append_dev(div5, t10);
-    			append_dev(div5, br0);
-    			append_dev(div5, t11);
-    			append_dev(div5, br1);
-    			append_dev(div5, t12);
+    			append_dev(div4, br1);
+    			append_dev(div4, t8);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div6);
+    			if (detaching) detach_dev(div5);
     		}
     	};
 
@@ -2369,34 +2348,34 @@ var app = (function () {
         {
             title: "Plato's Pizza",
             preview: './images/projects/pizza.png',
-            desc: "Realicé trabajos de ETL y análisis sobre datasets de accidentes aéreos. Construí un dashboard que se puede visualizar en la web utilizando Dash y Plotly, con el fin de presentar los resultados del análisis.",
+            desc: "I have done ETL work and analysis on airplane accident datasets. I built a dashboard that can be viewed on the web using Dash and Plotly, in order to present the results of the analysis.",
             pdf: './pdfs/pizza.pdf',
             url: 'https://maven-pizza-xqfi.onrender.com',
             stack: ['Python', 'Figma', 'Dash & Plotly']
             
         },
         {
-            title: "ICAO Analisis de Accidentes Aereos",
+            title: "ICAO Airplane Accident Analysis",
             preview: './images/projects/icao.png',
-            desc: "Desarrollé un dashboard en formato de aplicación web utilizando Dash y Plotly en base al analisis de varios datasets con informacion referente a las operaciones de una pizzeria del año 2015",
+            desc: "I developed a dashboard in the form of a web application using Dash and Plotly based on the analysis of several datasets containing information about the operations of a pizzeria in 2015.",
             pdf: './pdfs/icao.pdf',
             url: 'https://icao-dashboard.onrender.com',
             stack: ['Python', 'Dash & Plotly', 'Pandas','MySQL', 'Figma']
             
         },
         {
-            title: "Sistema de recomendacion de Restaurantes",
+            title: "Restaurant Recommendation System",
             preview: './images/projects/users.png',
-            desc: "Realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado utilice Dash y Plotly para desarrollar una aplicación web que permita a los usuarios tanto antiguos como nuevos, poder recibir recomendaciones de restaurantes que vayan acorde a sus experiencias previas",
+            desc: "I performed an analysis of user consumption trends to build a personalized recommendation system. I used Dash and Plotly to develop a web application that allows both new and old users to receive recommendations for restaurants that are in line with their previous experiences.",
             pdf: './pdfs/users.pdf',
             stack: ['Python','Pandas', 'Dash & Plotly', 'Figma', 'Google Cloud SQL'],
             url:""
             
         },
         {
-            title: "Dashboards de tendencia, riesgo y oportunidad para invertir en negocios en Estados Unidos",
+            title: "Trend, risk, and opportunity dashboards for investing in businesses in the United States",
             preview: './images/projects/risk.jpg',
-            desc: 'Análisis sobre las tendencias, oportunidades y riesgos de inversion en distintos rubros, la data para este analisis se obtuvo de Yelp, una plataforma de reviews de negocios, tambien se elaboraron 3 dashboard en un trabajo colaborativo usando tecnologias de big data.',
+            desc: 'Analysis of trends, opportunities, and risks of investment in various industries, the data for this analysis was obtained from Yelp, a business review platform, 3 dashboards were also developed in a collaborative work using big data technologies.',
             pdf: './pdfs/trending.pdf',
             url: '',
             stack: ['Python','Pandas','Google Cloud SQL','Dash & Plotly', 'Figma','Sass']
@@ -2450,19 +2429,19 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*preview*/ ctx[1])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*title*/ ctx[0]);
     			attr_dev(img, "class", "svelte-17nh65g");
-    			add_location(img, file$6, 11, 12, 283);
+    			add_location(img, file$6, 11, 12, 278);
     			attr_dev(div0, "class", "desc-title svelte-17nh65g");
-    			add_location(div0, file$6, 13, 16, 371);
+    			add_location(div0, file$6, 13, 16, 366);
     			attr_dev(div1, "class", "desc-extense svelte-17nh65g");
-    			add_location(div1, file$6, 14, 16, 426);
+    			add_location(div1, file$6, 14, 16, 421);
     			attr_dev(div2, "class", "description svelte-17nh65g");
-    			add_location(div2, file$6, 12, 12, 328);
+    			add_location(div2, file$6, 12, 12, 323);
     			attr_dev(div3, "class", "container svelte-17nh65g");
-    			add_location(div3, file$6, 10, 8, 246);
+    			add_location(div3, file$6, 10, 8, 241);
     			attr_dev(hr, "class", "svelte-17nh65g");
-    			add_location(hr, file$6, 17, 31, 533);
+    			add_location(hr, file$6, 17, 31, 528);
     			attr_dev(div4, "class", "separador");
-    			add_location(div4, file$6, 17, 8, 510);
+    			add_location(div4, file$6, 17, 8, 505);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div3, anchor);
@@ -2547,7 +2526,7 @@ var app = (function () {
     		c: function create() {
     			div1 = element("div");
     			div0 = element("div");
-    			div0.textContent = "Mis ultimos proyectos";
+    			div0.textContent = "My last projects";
     			t1 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -2741,8 +2720,8 @@ var app = (function () {
 
     ];
 
-    /* src\pages\Proyectos.svelte generated by Svelte v3.55.0 */
-    const file$5 = "src\\pages\\Proyectos.svelte";
+    /* src\pages\Projects.svelte generated by Svelte v3.55.0 */
+    const file$5 = "src\\pages\\Projects.svelte";
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -2772,7 +2751,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[9])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-yvrriw");
+    			attr_dev(img, "class", "svelte-1wsqpbx");
     			add_location(img, file$5, 29, 32, 1006);
     		},
     		m: function mount(target, anchor) {
@@ -2840,13 +2819,13 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			a = element("a");
-    			t = text("estatica");
+    			t = text("static");
     			attr_dev(a, "href", /*pdf*/ ctx[3]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "rel", "noopener noreferrer");
-    			attr_dev(a, "class", "svelte-yvrriw");
+    			attr_dev(a, "class", "svelte-1wsqpbx");
     			add_location(a, file$5, 39, 32, 1389);
-    			attr_dev(div, "class", "static svelte-yvrriw");
+    			attr_dev(div, "class", "static svelte-1wsqpbx");
     			add_location(div, file$5, 38, 24, 1335);
     		},
     		m: function mount(target, anchor) {
@@ -2881,14 +2860,14 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			a = element("a");
-    			t = text("interactiva");
+    			t = text("interactive");
     			attr_dev(a, "href", /*url*/ ctx[5]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "rel", "noopener noreferrer");
-    			attr_dev(a, "class", "svelte-yvrriw");
-    			add_location(a, file$5, 44, 32, 1651);
-    			attr_dev(div, "class", "interactive svelte-yvrriw");
-    			add_location(div, file$5, 43, 24, 1592);
+    			attr_dev(a, "class", "svelte-1wsqpbx");
+    			add_location(a, file$5, 44, 32, 1649);
+    			attr_dev(div, "class", "interactive svelte-1wsqpbx");
+    			add_location(div, file$5, 43, 24, 1590);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2985,29 +2964,29 @@ var app = (function () {
     			t11 = space();
     			if (!src_url_equal(img.src, img_src_value = /*preview*/ ctx[1])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-yvrriw");
+    			attr_dev(img, "class", "svelte-1wsqpbx");
     			add_location(img, file$5, 18, 16, 465);
-    			attr_dev(div0, "class", "preview svelte-yvrriw");
+    			attr_dev(div0, "class", "preview svelte-1wsqpbx");
     			add_location(div0, file$5, 17, 12, 426);
-    			attr_dev(div1, "class", "title svelte-yvrriw");
+    			attr_dev(div1, "class", "title svelte-1wsqpbx");
     			add_location(div1, file$5, 21, 16, 570);
     			attr_dev(div2, "class", "desc");
     			add_location(div2, file$5, 22, 16, 620);
-    			attr_dev(div3, "class", "stack-subtitle svelte-yvrriw");
+    			attr_dev(div3, "class", "stack-subtitle svelte-1wsqpbx");
     			add_location(div3, file$5, 25, 24, 760);
-    			attr_dev(div4, "class", "stack-container svelte-yvrriw");
+    			attr_dev(div4, "class", "stack-container svelte-1wsqpbx");
     			add_location(div4, file$5, 26, 24, 826);
-    			attr_dev(div5, "class", "tecnologias svelte-yvrriw");
+    			attr_dev(div5, "class", "tecnologias svelte-1wsqpbx");
     			add_location(div5, file$5, 24, 20, 709);
-    			attr_dev(div6, "class", "version svelte-yvrriw");
+    			attr_dev(div6, "class", "version svelte-1wsqpbx");
     			add_location(div6, file$5, 36, 24, 1233);
-    			attr_dev(div7, "class", "entregables svelte-yvrriw");
+    			attr_dev(div7, "class", "entregables svelte-1wsqpbx");
     			add_location(div7, file$5, 35, 20, 1182);
-    			attr_dev(div8, "class", "stack svelte-yvrriw");
+    			attr_dev(div8, "class", "stack svelte-1wsqpbx");
     			add_location(div8, file$5, 23, 16, 668);
-    			attr_dev(div9, "class", "description svelte-yvrriw");
+    			attr_dev(div9, "class", "description svelte-1wsqpbx");
     			add_location(div9, file$5, 20, 12, 527);
-    			attr_dev(div10, "class", "proyecto svelte-yvrriw");
+    			attr_dev(div10, "class", "proyecto svelte-1wsqpbx");
     			add_location(div10, file$5, 16, 8, 390);
     		},
     		m: function mount(target, anchor) {
@@ -3106,7 +3085,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div, "class", "proyectos svelte-yvrriw");
+    			attr_dev(div, "class", "proyectos svelte-1wsqpbx");
     			add_location(div, file$5, 12, 0, 275);
     		},
     		l: function claim(nodes) {
@@ -3165,25 +3144,25 @@ var app = (function () {
 
     function instance$6($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
-    	validate_slots('Proyectos', slots, []);
+    	validate_slots('Projects', slots, []);
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Proyectos> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Projects> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$capture_state = () => ({ projects, skills });
     	return [];
     }
 
-    class Proyectos extends SvelteComponentDev {
+    class Projects extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
     		init(this, options, instance$6, create_fragment$6, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
-    			tagName: "Proyectos",
+    			tagName: "Projects",
     			options,
     			id: create_fragment$6.name
     		});
@@ -3200,7 +3179,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (10:4) {#each skills as {name, src}
+    // (7:4) {#each skills as {name, src}
     function create_each_block(ctx) {
     	let div2;
     	let div0;
@@ -3224,13 +3203,13 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[1])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*name*/ ctx[0]);
     			attr_dev(img, "class", "svelte-1ipdf4m");
-    			add_location(img, file$4, 13, 12, 212);
+    			add_location(img, file$4, 10, 12, 206);
     			attr_dev(div0, "class", "image svelte-1ipdf4m");
-    			add_location(div0, file$4, 12, 8, 179);
+    			add_location(div0, file$4, 9, 8, 173);
     			attr_dev(div1, "class", "name svelte-1ipdf4m");
-    			add_location(div1, file$4, 15, 8, 266);
+    			add_location(div1, file$4, 12, 8, 260);
     			attr_dev(div2, "class", "skill-container svelte-1ipdf4m");
-    			add_location(div2, file$4, 11, 4, 140);
+    			add_location(div2, file$4, 8, 4, 134);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -3251,7 +3230,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(10:4) {#each skills as {name, src}",
+    		source: "(7:4) {#each skills as {name, src}",
     		ctx
     	});
 
@@ -3277,7 +3256,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "class", "skills svelte-1ipdf4m");
-    			add_location(div, file$4, 7, 0, 70);
+    			add_location(div, file$4, 4, 0, 64);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3360,9 +3339,9 @@ var app = (function () {
     	}
     }
 
-    /* src\pages\Sobre_mi.svelte generated by Svelte v3.55.0 */
+    /* src\pages\About_me.svelte generated by Svelte v3.55.0 */
 
-    const file$3 = "src\\pages\\Sobre_mi.svelte";
+    const file$3 = "src\\pages\\About_me.svelte";
 
     function create_fragment$4(ctx) {
     	let div74;
@@ -3495,17 +3474,17 @@ var app = (function () {
     			div74 = element("div");
     			div2 = element("div");
     			div0 = element("div");
-    			div0.textContent = "Perfil";
+    			div0.textContent = "Profile";
     			t1 = space();
     			div1 = element("div");
-    			t2 = text("Soy un profesional con experiencia en el área comercial y auditoria publica. Mi primer acercamiento con los datos se dio a través del uso de software CRM para la toma de decisiones y la planificación de estrategias comerciales.\r\n            ");
+    			t2 = text("I am a professional with experience in the commercial and public audit area. My first approach to data was through the use of CRM software for decision making and planning of commercial strategies.\r\n            ");
     			br0 = element("br");
-    			t3 = text("\r\n            Me inicie en el mundo de la programación de manera autodidacta, cuando escribí mi primer script de web scraping para obtener precios de una tienda virtual de licores.\r\n            Motivado por lo que podría llegar a hacer con Python, encontré el bootcamp de Henry.\r\n            Desde ahí he adquirido conocimientos en Python, SQL, GCP y herramientas de visualización de datos como Dash, Plotly, Tableau y Looker Studio.\r\n            ");
+    			t3 = text("\r\n            I started in the world of programming in a self-taught way, when I wrote my first web scraping script to get prices from an online liquor store.\r\n            Motivated by what I could do with Python, I found Henry's bootcamp.\r\n            From there I have acquired knowledge in Python, SQL, GCP and data visualization tools such as Dash, Plotly, Tableau, and Looker Studio.\r\n            ");
     			br1 = element("br");
-    			t4 = text("\r\n            Me interesa seguir desarrollando mis habilidades y adquiriendo nuevos conocimientos en este campo dinámico y emocionante, y estoy dispuesto a trabajar duro para lograr mis metas en el mundo de los datos.");
+    			t4 = text("\r\n            I am interested in continuing to develop my skills and acquire new knowledge in this dynamic and exciting field, and I am willing to work hard to achieve my goals in the world of data.");
     			t5 = space();
     			div3 = element("div");
-    			div3.textContent = "Experiencia";
+    			div3.textContent = "Experience";
     			t7 = space();
     			div12 = element("div");
     			div11 = element("div");
@@ -3516,13 +3495,13 @@ var app = (function () {
     			t9 = space();
     			div10 = element("div");
     			div7 = element("div");
-    			div7.textContent = "Analista de datos en Henry (académico)";
+    			div7.textContent = "Data analyst at Henry (academic)";
     			t11 = space();
     			div8 = element("div");
-    			div8.textContent = "nov. 2022 a dic. 2022, Argentina";
+    			div8.textContent = "Nov. 2022 to Dec. 2022, Argentina";
     			t13 = space();
     			div9 = element("div");
-    			div9.textContent = "Como colaborador en un proyecto de análisis de datos, mis tareas principales fueron la creación y administración de pipelines de ETL (extracción, transformación y carga de datos) en datasets de gran tamaño. Además, construí y administré la base de datos en Google Cloud SQL que se usó en el proyecto. También realicé un análisis de las tendencias de consumo de los usuarios para construir un sistema de recomendación personalizado. Finalmente, utilicé las herramientas Dash y Plotly para desarrollar una aplicación web donde se mostraron los dos productos finales del proyecto.";
+    			div9.textContent = "As a collaborator in a data analysis project, my main tasks were the creation and management of ETL pipelines (extract, transform, and load data) in large datasets. In addition, I built and managed the database in Google Cloud SQL that was used in the project. I also performed an analysis of user consumption trends to build a personalized recommendation system. Finally, I used the Dash and Plotly tools to develop a web application where the two final products of the project were shown.";
     			t15 = space();
     			div21 = element("div");
     			div20 = element("div");
@@ -3533,13 +3512,13 @@ var app = (function () {
     			t17 = space();
     			div19 = element("div");
     			div16 = element("div");
-    			div16.textContent = "Analista de datos en Henry (académico)";
+    			div16.textContent = "Data analyst at Henry (academic)";
     			t19 = space();
     			div17 = element("div");
-    			div17.textContent = "oct. 2022 a nov. 2022, Argentina";
+    			div17.textContent = "Oct. 2022 to Nov. 2022, Argentina";
     			t21 = space();
     			div18 = element("div");
-    			div18.textContent = "Realicé trabajos de ETL y análisis sobre datasets de accidentes aéreos obtenidos de la Organización de Aviación Civil Internacional.\r\n                    Construí un dashboard que se puede visualizar en la web utilizando Dash y Plotly, con el fin de presentar los resultados del análisis.";
+    			div18.textContent = "I did ETL work and analysis on airplane accident datasets obtained from the International Civil Aviation Organization.\r\n                    I built a dashboard that can be viewed on the web using Dash and Plotly, in order to present the results of the analysis.";
     			t23 = space();
     			div30 = element("div");
     			div29 = element("div");
@@ -3550,15 +3529,15 @@ var app = (function () {
     			t25 = space();
     			div28 = element("div");
     			div25 = element("div");
-    			div25.textContent = "Analista de datos en Maven Analytics (académico)";
+    			div25.textContent = "Data analyst at Maven Analytics (academic)";
     			t27 = space();
     			div26 = element("div");
-    			div26.textContent = "sept. 2022 a oct. 2022";
+    			div26.textContent = "Sept. 2022 to Oct. 2022";
     			t29 = space();
     			div27 = element("div");
-    			t30 = text("Desarrollé un dashboard en formato de aplicación web utilizando Dash y Plotly en base al analisis de varios datasets con informacion referente a las operaciones de una pizzeria del año 2015.\r\n                    El caso de estudio planteado por Maven Analytics se centró en la optimización del proceso de trabajo y atención a los clientes en una pizzería. ");
+    			t30 = text("I developed a dashboard in the form of a web application using Dash and Plotly based on the analysis of several datasets containing information about the operations of a pizzeria in 2015.\r\n                    The case study proposed by Maven Analytics focused on the optimization of the work process and customer service in a pizzeria. ");
     			br2 = element("br");
-    			t31 = text("\r\n                    Link de los requerimientos minimos del caso de estudio: \r\n                    ");
+    			t31 = text("\r\n                    Link to the minimum requirements of the case study: \r\n                    ");
     			a = element("a");
     			a.textContent = "Maven Pizza Challenge";
     			t33 = space();
@@ -3571,13 +3550,13 @@ var app = (function () {
     			t35 = space();
     			div37 = element("div");
     			div34 = element("div");
-    			div34.textContent = "Analista Comerial en Inox Supply Ingenieria";
+    			div34.textContent = "Commercial Analyst at Inox Supply Engineering";
     			t37 = space();
     			div35 = element("div");
-    			div35.textContent = "2020 a 2022, La Paz, Bolivia";
+    			div35.textContent = "2020 to 2022, La Paz, Bolivia";
     			t39 = space();
     			div36 = element("div");
-    			div36.textContent = "Uso de herramientas de análisis de datos para identificar tendencias y patrones en el comportamiento de los clientes y el inventario.\r\n                    Elaboración de informes de análisis de datos de clientes e inventario usando tablas dinamicas y graficas.\r\n                    Comunicación con el equipo de marketing para coordinar la implementación de los planes de acción.";
+    			div36.textContent = "Use of data analysis tools to identify trends and patterns in customer behavior and inventory.\r\n                    Preparation of data analysis reports on customers and inventory using dynamic tables and graphs.\r\n                    Communication with the marketing team to coordinate the implementation of action plans.";
     			t41 = space();
     			div48 = element("div");
     			div47 = element("div");
@@ -3588,16 +3567,16 @@ var app = (function () {
     			t43 = space();
     			div46 = element("div");
     			div43 = element("div");
-    			div43.textContent = "Auxiliar de Auditoria en CMLP - Comisión de Desarrollo Económico y Financiero";
+    			div43.textContent = "Auditing Assistant at CMLP - Commission for Economic and Financial Development";
     			t45 = space();
     			div44 = element("div");
-    			div44.textContent = "2018 a 2020, La Paz, Bolivia";
+    			div44.textContent = "2018 to 2020, La Paz, Bolivia";
     			t47 = space();
     			div45 = element("div");
-    			div45.textContent = "Trabajo en el área de Control de Obras del municipio de La Paz en colaboración con el equipo de abogados y arquitectos, donde se lleva a cabo el seguimiento, análisis y evaluación de los contratos de obras públicas.\r\n                    Medición del cumplimiento de los plazos y presupuestos establecidos en los contratos, y del grado de satisfacción de la comunidad con las obras realizadas";
+    			div45.textContent = "I worked in the Works Control area of the municipality of La Paz in collaboration with the team of lawyers and architects, where the monitoring, analysis, and evaluation of public works contracts is carried out.\r\n                    Measurement of compliance with the deadlines and budgets established in the contracts, and of the degree of community satisfaction with the works carried out.";
     			t49 = space();
     			div49 = element("div");
-    			div49.textContent = "Formacion";
+    			div49.textContent = "Education";
     			t51 = space();
     			div57 = element("div");
     			div56 = element("div");
@@ -3611,7 +3590,7 @@ var app = (function () {
     			div53.textContent = "Data Scientist";
     			t55 = space();
     			div54 = element("div");
-    			div54.textContent = "2022 a 2022 en Henry Bootcamp, Argentina";
+    			div54.textContent = "2022 to 2022 at Henry Bootcamp, Argentina";
     			t57 = space();
     			div65 = element("div");
     			div64 = element("div");
@@ -3622,10 +3601,10 @@ var app = (function () {
     			t59 = space();
     			div63 = element("div");
     			div61 = element("div");
-    			div61.textContent = "Auditoria Contable (ultimo año)";
+    			div61.textContent = "Accounting Audit (last year)";
     			t61 = space();
     			div62 = element("div");
-    			div62.textContent = "2022 a 2022 en Henry Bootcamp, Argentina";
+    			div62.textContent = "2022 to 2022 at Universidad NUR, Bolivia";
     			t63 = space();
     			div73 = element("div");
     			div72 = element("div");
@@ -3636,165 +3615,165 @@ var app = (function () {
     			t65 = space();
     			div71 = element("div");
     			div69 = element("div");
-    			div69.textContent = "Contabilidad General (Tecnicatura)";
+    			div69.textContent = "General Accounting (Technical Degree)";
     			t67 = space();
     			div70 = element("div");
-    			div70.textContent = "2015 a 2018 en Instituto de Educacion Bancaria, Bolivia";
-    			attr_dev(div0, "class", "title svelte-1z50ns");
+    			div70.textContent = "2015 to 2018 at Instituto de Educacion Bancaria, Bolivia";
+    			attr_dev(div0, "class", "title svelte-rp1tm1");
     			add_location(div0, file$3, 2, 8, 56);
-    			add_location(br0, file$3, 5, 12, 377);
-    			add_location(br1, file$3, 9, 12, 828);
-    			attr_dev(div1, "class", "description svelte-1z50ns");
-    			add_location(div1, file$3, 3, 8, 97);
-    			attr_dev(div2, "class", "header svelte-1z50ns");
+    			add_location(br0, file$3, 5, 12, 348);
+    			add_location(br1, file$3, 9, 12, 754);
+    			attr_dev(div1, "class", "description svelte-rp1tm1");
+    			add_location(div1, file$3, 3, 8, 98);
+    			attr_dev(div2, "class", "header svelte-rp1tm1");
     			add_location(div2, file$3, 1, 4, 26);
-    			attr_dev(div3, "class", "title-exp svelte-1z50ns");
-    			add_location(div3, file$3, 14, 4, 1085);
-    			attr_dev(div4, "class", "dot svelte-1z50ns");
-    			add_location(div4, file$3, 18, 16, 1243);
-    			attr_dev(div5, "class", "line svelte-1z50ns");
-    			add_location(div5, file$3, 19, 16, 1284);
-    			attr_dev(div6, "class", "line-container svelte-1z50ns");
-    			add_location(div6, file$3, 17, 12, 1197);
-    			attr_dev(div7, "class", "cargo svelte-1z50ns");
-    			add_location(div7, file$3, 22, 16, 1388);
-    			attr_dev(div8, "class", "tiempo svelte-1z50ns");
-    			add_location(div8, file$3, 23, 16, 1469);
-    			attr_dev(div9, "class", "exp-description svelte-1z50ns");
-    			add_location(div9, file$3, 24, 16, 1545);
-    			attr_dev(div10, "class", "text-container svelte-1z50ns");
-    			add_location(div10, file$3, 21, 12, 1342);
-    			attr_dev(div11, "class", "demo1 svelte-1z50ns");
-    			add_location(div11, file$3, 16, 8, 1164);
-    			attr_dev(div12, "class", "demo-main svelte-1z50ns");
-    			add_location(div12, file$3, 15, 4, 1131);
-    			attr_dev(div13, "class", "dot svelte-1z50ns");
-    			add_location(div13, file$3, 31, 16, 2323);
-    			attr_dev(div14, "class", "line svelte-1z50ns");
-    			add_location(div14, file$3, 32, 16, 2364);
-    			attr_dev(div15, "class", "line-container svelte-1z50ns");
-    			add_location(div15, file$3, 30, 12, 2277);
-    			attr_dev(div16, "class", "cargo svelte-1z50ns");
-    			add_location(div16, file$3, 35, 16, 2468);
-    			attr_dev(div17, "class", "tiempo svelte-1z50ns");
-    			add_location(div17, file$3, 36, 16, 2549);
-    			attr_dev(div18, "class", "exp-description svelte-1z50ns");
-    			add_location(div18, file$3, 37, 16, 2625);
-    			attr_dev(div19, "class", "text-container svelte-1z50ns");
-    			add_location(div19, file$3, 34, 12, 2422);
-    			attr_dev(div20, "class", "demo1 svelte-1z50ns");
-    			add_location(div20, file$3, 29, 8, 2244);
-    			attr_dev(div21, "class", "demo-main svelte-1z50ns");
-    			add_location(div21, file$3, 28, 4, 2211);
-    			attr_dev(div22, "class", "dot svelte-1z50ns");
-    			add_location(div22, file$3, 47, 16, 3154);
-    			attr_dev(div23, "class", "line svelte-1z50ns");
-    			add_location(div23, file$3, 48, 16, 3195);
-    			attr_dev(div24, "class", "line-container svelte-1z50ns");
-    			add_location(div24, file$3, 46, 12, 3108);
-    			attr_dev(div25, "class", "cargo svelte-1z50ns");
-    			add_location(div25, file$3, 51, 16, 3299);
-    			attr_dev(div26, "class", "tiempo svelte-1z50ns");
-    			add_location(div26, file$3, 52, 16, 3390);
-    			add_location(br2, file$3, 55, 164, 3863);
+    			attr_dev(div3, "class", "title-exp svelte-rp1tm1");
+    			add_location(div3, file$3, 14, 4, 992);
+    			attr_dev(div4, "class", "dot svelte-rp1tm1");
+    			add_location(div4, file$3, 18, 16, 1149);
+    			attr_dev(div5, "class", "line svelte-rp1tm1");
+    			add_location(div5, file$3, 19, 16, 1190);
+    			attr_dev(div6, "class", "line-container svelte-rp1tm1");
+    			add_location(div6, file$3, 17, 12, 1103);
+    			attr_dev(div7, "class", "cargo svelte-rp1tm1");
+    			add_location(div7, file$3, 22, 16, 1294);
+    			attr_dev(div8, "class", "tiempo svelte-rp1tm1");
+    			add_location(div8, file$3, 23, 16, 1369);
+    			attr_dev(div9, "class", "exp-description svelte-rp1tm1");
+    			add_location(div9, file$3, 24, 16, 1446);
+    			attr_dev(div10, "class", "text-container svelte-rp1tm1");
+    			add_location(div10, file$3, 21, 12, 1248);
+    			attr_dev(div11, "class", "demo1 svelte-rp1tm1");
+    			add_location(div11, file$3, 16, 8, 1070);
+    			attr_dev(div12, "class", "demo-main svelte-rp1tm1");
+    			add_location(div12, file$3, 15, 4, 1037);
+    			attr_dev(div13, "class", "dot svelte-rp1tm1");
+    			add_location(div13, file$3, 31, 16, 2137);
+    			attr_dev(div14, "class", "line svelte-rp1tm1");
+    			add_location(div14, file$3, 32, 16, 2178);
+    			attr_dev(div15, "class", "line-container svelte-rp1tm1");
+    			add_location(div15, file$3, 30, 12, 2091);
+    			attr_dev(div16, "class", "cargo svelte-rp1tm1");
+    			add_location(div16, file$3, 35, 16, 2282);
+    			attr_dev(div17, "class", "tiempo svelte-rp1tm1");
+    			add_location(div17, file$3, 36, 16, 2357);
+    			attr_dev(div18, "class", "exp-description svelte-rp1tm1");
+    			add_location(div18, file$3, 37, 16, 2434);
+    			attr_dev(div19, "class", "text-container svelte-rp1tm1");
+    			add_location(div19, file$3, 34, 12, 2236);
+    			attr_dev(div20, "class", "demo1 svelte-rp1tm1");
+    			add_location(div20, file$3, 29, 8, 2058);
+    			attr_dev(div21, "class", "demo-main svelte-rp1tm1");
+    			add_location(div21, file$3, 28, 4, 2025);
+    			attr_dev(div22, "class", "dot svelte-rp1tm1");
+    			add_location(div22, file$3, 47, 16, 2936);
+    			attr_dev(div23, "class", "line svelte-rp1tm1");
+    			add_location(div23, file$3, 48, 16, 2977);
+    			attr_dev(div24, "class", "line-container svelte-rp1tm1");
+    			add_location(div24, file$3, 46, 12, 2890);
+    			attr_dev(div25, "class", "cargo svelte-rp1tm1");
+    			add_location(div25, file$3, 51, 16, 3081);
+    			attr_dev(div26, "class", "tiempo svelte-rp1tm1");
+    			add_location(div26, file$3, 52, 16, 3166);
+    			add_location(br2, file$3, 55, 147, 3620);
     			attr_dev(a, "href", "https://www.mavenanalytics.io/blog/maven-pizza-challenge");
-    			attr_dev(a, "class", "svelte-1z50ns");
-    			add_location(a, file$3, 57, 20, 3967);
-    			attr_dev(div27, "class", "exp-description svelte-1z50ns");
-    			add_location(div27, file$3, 53, 16, 3456);
-    			attr_dev(div28, "class", "text-container svelte-1z50ns");
-    			add_location(div28, file$3, 50, 12, 3253);
-    			attr_dev(div29, "class", "demo1 svelte-1z50ns");
-    			add_location(div29, file$3, 45, 8, 3075);
-    			attr_dev(div30, "class", "demo-main svelte-1z50ns");
-    			add_location(div30, file$3, 44, 4, 3042);
-    			attr_dev(div31, "class", "dot svelte-1z50ns");
-    			add_location(div31, file$3, 66, 16, 4271);
-    			attr_dev(div32, "class", "line svelte-1z50ns");
-    			add_location(div32, file$3, 67, 16, 4312);
-    			attr_dev(div33, "class", "line-container svelte-1z50ns");
-    			add_location(div33, file$3, 65, 12, 4225);
-    			attr_dev(div34, "class", "cargo svelte-1z50ns");
-    			add_location(div34, file$3, 70, 16, 4416);
-    			attr_dev(div35, "class", "tiempo svelte-1z50ns");
-    			add_location(div35, file$3, 71, 16, 4502);
-    			attr_dev(div36, "class", "exp-description svelte-1z50ns");
-    			add_location(div36, file$3, 72, 16, 4574);
-    			attr_dev(div37, "class", "text-container svelte-1z50ns");
-    			add_location(div37, file$3, 69, 12, 4370);
-    			attr_dev(div38, "class", "demo1 svelte-1z50ns");
-    			add_location(div38, file$3, 64, 8, 4192);
-    			attr_dev(div39, "class", "demo-main svelte-1z50ns");
-    			add_location(div39, file$3, 63, 4, 4159);
-    			attr_dev(div40, "class", "dot svelte-1z50ns");
-    			add_location(div40, file$3, 83, 16, 5194);
-    			attr_dev(div41, "class", "line2 svelte-1z50ns");
-    			add_location(div41, file$3, 84, 16, 5235);
-    			attr_dev(div42, "class", "line-container svelte-1z50ns");
-    			add_location(div42, file$3, 82, 12, 5148);
-    			attr_dev(div43, "class", "cargo svelte-1z50ns");
-    			add_location(div43, file$3, 87, 16, 5340);
-    			attr_dev(div44, "class", "tiempo svelte-1z50ns");
-    			add_location(div44, file$3, 88, 16, 5460);
-    			attr_dev(div45, "class", "exp-description svelte-1z50ns");
-    			add_location(div45, file$3, 89, 16, 5532);
-    			attr_dev(div46, "class", "text-container svelte-1z50ns");
-    			add_location(div46, file$3, 86, 12, 5294);
-    			attr_dev(div47, "class", "demo1 svelte-1z50ns");
-    			add_location(div47, file$3, 81, 8, 5115);
-    			attr_dev(div48, "class", "demo-main svelte-1z50ns");
-    			add_location(div48, file$3, 80, 4, 5082);
-    			attr_dev(div49, "class", "title-exp svelte-1z50ns");
-    			add_location(div49, file$3, 97, 4, 6057);
-    			attr_dev(div50, "class", "dot svelte-1z50ns");
-    			add_location(div50, file$3, 101, 16, 6213);
-    			attr_dev(div51, "class", "line svelte-1z50ns");
-    			add_location(div51, file$3, 102, 16, 6254);
-    			attr_dev(div52, "class", "line-container svelte-1z50ns");
-    			add_location(div52, file$3, 100, 12, 6167);
-    			attr_dev(div53, "class", "cargo svelte-1z50ns");
-    			add_location(div53, file$3, 105, 16, 6358);
-    			attr_dev(div54, "class", "exp-description svelte-1z50ns");
-    			add_location(div54, file$3, 106, 16, 6415);
-    			attr_dev(div55, "class", "text-container svelte-1z50ns");
-    			add_location(div55, file$3, 104, 12, 6312);
-    			attr_dev(div56, "class", "demo1 svelte-1z50ns");
-    			add_location(div56, file$3, 99, 8, 6134);
-    			attr_dev(div57, "class", "demo-main svelte-1z50ns");
-    			add_location(div57, file$3, 98, 4, 6101);
-    			attr_dev(div58, "class", "dot svelte-1z50ns");
-    			add_location(div58, file$3, 113, 16, 6656);
-    			attr_dev(div59, "class", "line svelte-1z50ns");
-    			add_location(div59, file$3, 114, 16, 6697);
-    			attr_dev(div60, "class", "line-container svelte-1z50ns");
-    			add_location(div60, file$3, 112, 12, 6610);
-    			attr_dev(div61, "class", "cargo svelte-1z50ns");
-    			add_location(div61, file$3, 117, 16, 6801);
-    			attr_dev(div62, "class", "exp-description svelte-1z50ns");
-    			add_location(div62, file$3, 118, 16, 6875);
-    			attr_dev(div63, "class", "text-container svelte-1z50ns");
-    			add_location(div63, file$3, 116, 12, 6755);
-    			attr_dev(div64, "class", "demo1 svelte-1z50ns");
-    			add_location(div64, file$3, 111, 8, 6577);
-    			attr_dev(div65, "class", "demo-main svelte-1z50ns");
-    			add_location(div65, file$3, 110, 4, 6544);
-    			attr_dev(div66, "class", "dot svelte-1z50ns");
-    			add_location(div66, file$3, 126, 16, 7118);
-    			attr_dev(div67, "class", "line2 svelte-1z50ns");
-    			add_location(div67, file$3, 127, 16, 7159);
-    			attr_dev(div68, "class", "line-container svelte-1z50ns");
-    			add_location(div68, file$3, 125, 12, 7072);
-    			attr_dev(div69, "class", "cargo svelte-1z50ns");
-    			add_location(div69, file$3, 130, 16, 7264);
-    			attr_dev(div70, "class", "exp-description svelte-1z50ns");
-    			add_location(div70, file$3, 131, 16, 7341);
-    			attr_dev(div71, "class", "text-container svelte-1z50ns");
-    			add_location(div71, file$3, 129, 12, 7218);
-    			attr_dev(div72, "class", "demo1 svelte-1z50ns");
-    			add_location(div72, file$3, 124, 8, 7039);
-    			attr_dev(div73, "class", "demo-main svelte-1z50ns");
-    			add_location(div73, file$3, 122, 4, 7004);
-    			attr_dev(div74, "class", "perfil svelte-1z50ns");
+    			attr_dev(a, "class", "svelte-rp1tm1");
+    			add_location(a, file$3, 57, 20, 3720);
+    			attr_dev(div27, "class", "exp-description svelte-rp1tm1");
+    			add_location(div27, file$3, 53, 16, 3233);
+    			attr_dev(div28, "class", "text-container svelte-rp1tm1");
+    			add_location(div28, file$3, 50, 12, 3035);
+    			attr_dev(div29, "class", "demo1 svelte-rp1tm1");
+    			add_location(div29, file$3, 45, 8, 2857);
+    			attr_dev(div30, "class", "demo-main svelte-rp1tm1");
+    			add_location(div30, file$3, 44, 4, 2824);
+    			attr_dev(div31, "class", "dot svelte-rp1tm1");
+    			add_location(div31, file$3, 65, 16, 4002);
+    			attr_dev(div32, "class", "line svelte-rp1tm1");
+    			add_location(div32, file$3, 66, 16, 4043);
+    			attr_dev(div33, "class", "line-container svelte-rp1tm1");
+    			add_location(div33, file$3, 64, 12, 3956);
+    			attr_dev(div34, "class", "cargo svelte-rp1tm1");
+    			add_location(div34, file$3, 69, 16, 4147);
+    			attr_dev(div35, "class", "tiempo svelte-rp1tm1");
+    			add_location(div35, file$3, 70, 16, 4235);
+    			attr_dev(div36, "class", "exp-description svelte-rp1tm1");
+    			add_location(div36, file$3, 71, 16, 4308);
+    			attr_dev(div37, "class", "text-container svelte-rp1tm1");
+    			add_location(div37, file$3, 68, 12, 4101);
+    			attr_dev(div38, "class", "demo1 svelte-rp1tm1");
+    			add_location(div38, file$3, 63, 8, 3923);
+    			attr_dev(div39, "class", "demo-main svelte-rp1tm1");
+    			add_location(div39, file$3, 62, 4, 3890);
+    			attr_dev(div40, "class", "dot svelte-rp1tm1");
+    			add_location(div40, file$3, 82, 16, 4870);
+    			attr_dev(div41, "class", "line2 svelte-rp1tm1");
+    			add_location(div41, file$3, 83, 16, 4911);
+    			attr_dev(div42, "class", "line-container svelte-rp1tm1");
+    			add_location(div42, file$3, 81, 12, 4824);
+    			attr_dev(div43, "class", "cargo svelte-rp1tm1");
+    			add_location(div43, file$3, 86, 16, 5016);
+    			attr_dev(div44, "class", "tiempo svelte-rp1tm1");
+    			add_location(div44, file$3, 87, 16, 5137);
+    			attr_dev(div45, "class", "exp-description svelte-rp1tm1");
+    			add_location(div45, file$3, 88, 16, 5210);
+    			attr_dev(div46, "class", "text-container svelte-rp1tm1");
+    			add_location(div46, file$3, 85, 12, 4970);
+    			attr_dev(div47, "class", "demo1 svelte-rp1tm1");
+    			add_location(div47, file$3, 80, 8, 4791);
+    			attr_dev(div48, "class", "demo-main svelte-rp1tm1");
+    			add_location(div48, file$3, 79, 4, 4758);
+    			attr_dev(div49, "class", "title-exp svelte-rp1tm1");
+    			add_location(div49, file$3, 96, 4, 5735);
+    			attr_dev(div50, "class", "dot svelte-rp1tm1");
+    			add_location(div50, file$3, 100, 16, 5891);
+    			attr_dev(div51, "class", "line svelte-rp1tm1");
+    			add_location(div51, file$3, 101, 16, 5932);
+    			attr_dev(div52, "class", "line-container svelte-rp1tm1");
+    			add_location(div52, file$3, 99, 12, 5845);
+    			attr_dev(div53, "class", "cargo svelte-rp1tm1");
+    			add_location(div53, file$3, 104, 16, 6036);
+    			attr_dev(div54, "class", "exp-description svelte-rp1tm1");
+    			add_location(div54, file$3, 105, 16, 6093);
+    			attr_dev(div55, "class", "text-container svelte-rp1tm1");
+    			add_location(div55, file$3, 103, 12, 5990);
+    			attr_dev(div56, "class", "demo1 svelte-rp1tm1");
+    			add_location(div56, file$3, 98, 8, 5812);
+    			attr_dev(div57, "class", "demo-main svelte-rp1tm1");
+    			add_location(div57, file$3, 97, 4, 5779);
+    			attr_dev(div58, "class", "dot svelte-rp1tm1");
+    			add_location(div58, file$3, 112, 16, 6335);
+    			attr_dev(div59, "class", "line svelte-rp1tm1");
+    			add_location(div59, file$3, 113, 16, 6376);
+    			attr_dev(div60, "class", "line-container svelte-rp1tm1");
+    			add_location(div60, file$3, 111, 12, 6289);
+    			attr_dev(div61, "class", "cargo svelte-rp1tm1");
+    			add_location(div61, file$3, 116, 16, 6480);
+    			attr_dev(div62, "class", "exp-description svelte-rp1tm1");
+    			add_location(div62, file$3, 117, 16, 6551);
+    			attr_dev(div63, "class", "text-container svelte-rp1tm1");
+    			add_location(div63, file$3, 115, 12, 6434);
+    			attr_dev(div64, "class", "demo1 svelte-rp1tm1");
+    			add_location(div64, file$3, 110, 8, 6256);
+    			attr_dev(div65, "class", "demo-main svelte-rp1tm1");
+    			add_location(div65, file$3, 109, 4, 6223);
+    			attr_dev(div66, "class", "dot svelte-rp1tm1");
+    			add_location(div66, file$3, 125, 16, 6794);
+    			attr_dev(div67, "class", "line2 svelte-rp1tm1");
+    			add_location(div67, file$3, 126, 16, 6835);
+    			attr_dev(div68, "class", "line-container svelte-rp1tm1");
+    			add_location(div68, file$3, 124, 12, 6748);
+    			attr_dev(div69, "class", "cargo svelte-rp1tm1");
+    			add_location(div69, file$3, 129, 16, 6940);
+    			attr_dev(div70, "class", "exp-description svelte-rp1tm1");
+    			add_location(div70, file$3, 130, 16, 7020);
+    			attr_dev(div71, "class", "text-container svelte-rp1tm1");
+    			add_location(div71, file$3, 128, 12, 6894);
+    			attr_dev(div72, "class", "demo1 svelte-rp1tm1");
+    			add_location(div72, file$3, 123, 8, 6715);
+    			attr_dev(div73, "class", "demo-main svelte-rp1tm1");
+    			add_location(div73, file$3, 121, 4, 6680);
+    			attr_dev(div74, "class", "perfil svelte-rp1tm1");
     			add_location(div74, file$3, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -3947,24 +3926,24 @@ var app = (function () {
 
     function instance$4($$self, $$props) {
     	let { $$slots: slots = {}, $$scope } = $$props;
-    	validate_slots('Sobre_mi', slots, []);
+    	validate_slots('About_me', slots, []);
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Sobre_mi> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<About_me> was created with unknown prop '${key}'`);
     	});
 
     	return [];
     }
 
-    class Sobre_mi extends SvelteComponentDev {
+    class About_me extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
     		init(this, options, instance$4, create_fragment$4, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
-    			tagName: "Sobre_mi",
+    			tagName: "About_me",
     			options,
     			id: create_fragment$4.name
     		});
@@ -4110,9 +4089,9 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			p = element("p");
-    			p.textContent = "Inicio";
+    			p.textContent = "Home";
     			attr_dev(p, "class", "svelte-oror4q");
-    			add_location(p, file, 57, 47, 2302);
+    			add_location(p, file, 57, 47, 2300);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4134,16 +4113,16 @@ var app = (function () {
     	return block;
     }
 
-    // (59:34) <Link to='/Sobre_mi'>
+    // (59:34) <Link to='/About_me'>
     function create_default_slot_8(ctx) {
     	let p;
 
     	const block = {
     		c: function create() {
     			p = element("p");
-    			p.textContent = "Sobre mi";
+    			p.textContent = "About me";
     			attr_dev(p, "class", "svelte-oror4q");
-    			add_location(p, file, 58, 55, 2385);
+    			add_location(p, file, 58, 55, 2381);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4158,7 +4137,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(59:34) <Link to='/Sobre_mi'>",
+    		source: "(59:34) <Link to='/About_me'>",
     		ctx
     	});
 
@@ -4174,7 +4153,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Skills";
     			attr_dev(p, "class", "svelte-oror4q");
-    			add_location(p, file, 59, 53, 2468);
+    			add_location(p, file, 59, 53, 2464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4196,16 +4175,16 @@ var app = (function () {
     	return block;
     }
 
-    // (61:34) <Link to='/Proyectos'>
+    // (61:34) <Link to='/Projects'>
     function create_default_slot_6(ctx) {
     	let p;
 
     	const block = {
     		c: function create() {
     			p = element("p");
-    			p.textContent = "Proyectos";
+    			p.textContent = "Projects";
     			attr_dev(p, "class", "svelte-oror4q");
-    			add_location(p, file, 60, 56, 2552);
+    			add_location(p, file, 60, 55, 2547);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4220,7 +4199,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(61:34) <Link to='/Proyectos'>",
+    		source: "(61:34) <Link to='/Projects'>",
     		ctx
     	});
 
@@ -4277,31 +4256,31 @@ var app = (function () {
     	return block;
     }
 
-    // (99:4) <Route path='/Proyectos'>
+    // (99:4) <Route path='/Projects'>
     function create_default_slot_4(ctx) {
-    	let proyectos;
+    	let projects;
     	let current;
-    	proyectos = new Proyectos({ $$inline: true });
+    	projects = new Projects({ $$inline: true });
 
     	const block = {
     		c: function create() {
-    			create_component(proyectos.$$.fragment);
+    			create_component(projects.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(proyectos, target, anchor);
+    			mount_component(projects, target, anchor);
     			current = true;
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(proyectos.$$.fragment, local);
+    			transition_in(projects.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(proyectos.$$.fragment, local);
+    			transition_out(projects.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(proyectos, detaching);
+    			destroy_component(projects, detaching);
     		}
     	};
 
@@ -4309,7 +4288,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(99:4) <Route path='/Proyectos'>",
+    		source: "(99:4) <Route path='/Projects'>",
     		ctx
     	});
 
@@ -4355,31 +4334,31 @@ var app = (function () {
     	return block;
     }
 
-    // (107:4) <Route path='/Sobre_mi'>
+    // (107:4) <Route path='/About_me'>
     function create_default_slot_2(ctx) {
-    	let sobre_mi;
+    	let about_me;
     	let current;
-    	sobre_mi = new Sobre_mi({ $$inline: true });
+    	about_me = new About_me({ $$inline: true });
 
     	const block = {
     		c: function create() {
-    			create_component(sobre_mi.$$.fragment);
+    			create_component(about_me.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(sobre_mi, target, anchor);
+    			mount_component(about_me, target, anchor);
     			current = true;
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(sobre_mi.$$.fragment, local);
+    			transition_in(about_me.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(sobre_mi.$$.fragment, local);
+    			transition_out(about_me.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(sobre_mi, detaching);
+    			destroy_component(about_me, detaching);
     		}
     	};
 
@@ -4387,7 +4366,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(107:4) <Route path='/Sobre_mi'>",
+    		source: "(107:4) <Route path='/About_me'>",
     		ctx
     	});
 
@@ -4514,7 +4493,7 @@ var app = (function () {
 
     	link1 = new Link({
     			props: {
-    				to: "/Sobre_mi",
+    				to: "/About_me",
     				$$slots: { default: [create_default_slot_8] },
     				$$scope: { ctx }
     			},
@@ -4532,7 +4511,7 @@ var app = (function () {
 
     	link3 = new Link({
     			props: {
-    				to: "/Proyectos",
+    				to: "/Projects",
     				$$slots: { default: [create_default_slot_6] },
     				$$scope: { ctx }
     			},
@@ -4550,7 +4529,7 @@ var app = (function () {
 
     	route1 = new Route({
     			props: {
-    				path: "/Proyectos",
+    				path: "/Projects",
     				$$slots: { default: [create_default_slot_4] },
     				$$scope: { ctx }
     			},
@@ -4568,7 +4547,7 @@ var app = (function () {
 
     	route3 = new Route({
     			props: {
-    				path: "/Sobre_mi",
+    				path: "/About_me",
     				$$slots: { default: [create_default_slot_2] },
     				$$scope: { ctx }
     			},
@@ -4608,7 +4587,7 @@ var app = (function () {
     			t4 = space();
     			div5 = element("div");
     			p = element("p");
-    			p.textContent = "Contactame";
+    			p.textContent = "Contact";
     			t6 = space();
     			div8 = element("div");
     			a0 = element("a");
@@ -4648,84 +4627,84 @@ var app = (function () {
     			if (!src_url_equal(img0.src, img0_src_value = "./images/foto-perfil.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
     			attr_dev(img0, "class", "svelte-oror4q");
-    			add_location(img0, file, 53, 16, 2098);
+    			add_location(img0, file, 53, 16, 2096);
     			attr_dev(div0, "class", "foto-perfil svelte-oror4q");
-    			add_location(div0, file, 52, 12, 2055);
+    			add_location(div0, file, 52, 12, 2053);
     			attr_dev(div1, "class", "link svelte-oror4q");
-    			add_location(div1, file, 57, 16, 2271);
+    			add_location(div1, file, 57, 16, 2269);
     			attr_dev(div2, "class", "link svelte-oror4q");
-    			add_location(div2, file, 58, 16, 2346);
+    			add_location(div2, file, 58, 16, 2342);
     			attr_dev(div3, "class", "link svelte-oror4q");
-    			add_location(div3, file, 59, 16, 2431);
+    			add_location(div3, file, 59, 16, 2427);
     			attr_dev(div4, "class", "link svelte-oror4q");
-    			add_location(div4, file, 60, 16, 2512);
+    			add_location(div4, file, 60, 16, 2508);
     			attr_dev(p, "class", "svelte-oror4q");
-    			add_location(p, file, 61, 34, 2617);
+    			add_location(p, file, 61, 34, 2611);
     			attr_dev(div5, "class", "link svelte-oror4q");
-    			add_location(div5, file, 61, 16, 2599);
+    			add_location(div5, file, 61, 16, 2593);
     			attr_dev(div6, "class", "description svelte-oror4q");
-    			add_location(div6, file, 56, 12, 2228);
+    			add_location(div6, file, 56, 12, 2226);
     			attr_dev(div7, "class", "top-side");
-    			add_location(div7, file, 51, 8, 2019);
+    			add_location(div7, file, 51, 8, 2017);
     			if (!src_url_equal(img1.src, img1_src_value = "./images/github-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "github-logo");
     			attr_dev(img1, "class", "svelte-oror4q");
-    			add_location(img1, file, 66, 16, 2831);
+    			add_location(img1, file, 66, 16, 2822);
     			attr_dev(a0, "href", "https://github.com/khorneflakes-dev");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file, 65, 12, 2725);
+    			add_location(a0, file, 65, 12, 2716);
     			if (!src_url_equal(img2.src, img2_src_value = "./images/linkedin-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "linkedin-logo");
     			attr_dev(img2, "class", "svelte-oror4q");
-    			add_location(img2, file, 69, 16, 3037);
+    			add_location(img2, file, 69, 16, 3028);
     			attr_dev(a1, "href", "https://www.linkedin.com/in/khorneflakes/");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file, 68, 12, 2925);
+    			add_location(a1, file, 68, 12, 2916);
     			if (!src_url_equal(img3.src, img3_src_value = "./images/whatsapp-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "whatsapp-logo");
     			attr_dev(img3, "class", "svelte-oror4q");
-    			add_location(img3, file, 72, 16, 3231);
+    			add_location(img3, file, 72, 16, 3222);
     			attr_dev(a2, "href", "https://wa.me/59169839682");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "rel", "noopener noreferrer");
-    			add_location(a2, file, 71, 12, 3135);
+    			add_location(a2, file, 71, 12, 3126);
     			if (!src_url_equal(img4.src, img4_src_value = "./images/telegram-" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "telegram-logo");
     			attr_dev(img4, "class", "svelte-oror4q");
-    			add_location(img4, file, 75, 16, 3428);
+    			add_location(img4, file, 75, 16, 3419);
     			attr_dev(a3, "href", "https://t.me/khorneflakesdev");
     			attr_dev(a3, "target", "_blank");
     			attr_dev(a3, "rel", "noopener noreferrer");
-    			add_location(a3, file, 74, 12, 3329);
+    			add_location(a3, file, 74, 12, 3320);
     			attr_dev(div8, "class", "bottom-side svelte-oror4q");
-    			add_location(div8, file, 64, 8, 2686);
+    			add_location(div8, file, 64, 8, 2677);
     			attr_dev(div9, "class", "sidebar svelte-oror4q");
     			attr_dev(div9, "id", "sidebar");
-    			add_location(div9, file, 50, 4, 1975);
+    			add_location(div9, file, 50, 4, 1973);
     			if (!src_url_equal(img5.src, img5_src_value = "favicon.png")) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "logo");
     			attr_dev(img5, "class", "navbar-logo svelte-oror4q");
-    			add_location(img5, file, 80, 8, 3576);
+    			add_location(img5, file, 80, 8, 3567);
     			attr_dev(div10, "class", "navbar svelte-oror4q");
-    			add_location(div10, file, 79, 4, 3546);
+    			add_location(div10, file, 79, 4, 3537);
     			if (!src_url_equal(img6.src, img6_src_value = "./images/theme/" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img6, "src", img6_src_value);
     			attr_dev(img6, "alt", "");
     			attr_dev(img6, "class", "svelte-oror4q");
-    			add_location(img6, file, 84, 12, 3737);
+    			add_location(img6, file, 84, 12, 3728);
     			attr_dev(button0, "class", "button-theme svelte-oror4q");
-    			add_location(button0, file, 83, 8, 3677);
+    			add_location(button0, file, 83, 8, 3668);
     			attr_dev(div11, "class", "theme svelte-oror4q");
-    			add_location(div11, file, 82, 4, 3648);
+    			add_location(div11, file, 82, 4, 3639);
     			if (!src_url_equal(img7.src, img7_src_value = "./images/burger" + /*colorTheme*/ ctx[0] + ".svg")) attr_dev(img7, "src", img7_src_value);
     			attr_dev(img7, "alt", "");
     			attr_dev(img7, "class", "svelte-oror4q");
-    			add_location(img7, file, 89, 12, 3923);
+    			add_location(img7, file, 89, 12, 3914);
     			attr_dev(button1, "class", "burger-button svelte-oror4q");
-    			add_location(button1, file, 88, 8, 3861);
+    			add_location(button1, file, 88, 8, 3852);
     			attr_dev(div12, "class", "slider-button svelte-oror4q");
-    			add_location(div12, file, 87, 4, 3824);
+    			add_location(div12, file, 87, 4, 3815);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div9, anchor);
@@ -5060,9 +5039,9 @@ var app = (function () {
     		Route,
     		Home1,
     		LastProjects,
-    		Proyectos,
+    		Projects,
     		Skills,
-    		Sobre_mi,
+    		About_me,
     		Contactame,
     		Footer,
     		colorTheme,
