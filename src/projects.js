@@ -1,13 +1,13 @@
 export const projects = [
-    {
-        title: "Inox Supply Landing Page",
-        preview: './images/projects/inox.png',
-        desc: "I have done ETL work and analysis on airplane accident datasets. I built a dashboard that can be viewed on the web using Dash and Plotly, in order to present the results of the analysis.",
-        pdf: '',
-        url: 'https://khorneflakes-dev.github.io/inox-deploy/',
-        stack: ['HTML', 'CSS','Sass', 'Javascript']
+    // {
+    //     title: "Inox Supply Landing Page",
+    //     preview: './images/projects/inox.png',
+    //     desc: "I have done ETL work and analysis on airplane accident datasets. I built a dashboard that can be viewed on the web using Dash and Plotly, in order to present the results of the analysis.",
+    //     pdf: '',
+    //     url: 'https://khorneflakes-dev.github.io/inox-deploy/',
+    //     stack: ['HTML', 'CSS','Sass', 'Javascript']
         
-    },
+    // },
     {
         title: "Plato's Pizza",
         preview: './images/projects/pizza.png',

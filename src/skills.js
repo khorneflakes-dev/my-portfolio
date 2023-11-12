@@ -5,21 +5,6 @@ export const skills = [
         keyword: 'Analitica',
     },
     {
-        name: 'Google Cloud SQL',
-        src: './images/skills/cloudsql.svg',
-        keyword: 'Bases de Datos',
-    },
-    {
-        name: 'Looker Studio',
-        src: './images/skills/looker.svg',
-        keyword: 'Analitica',
-    },
-    {
-        name: 'MySQL',
-        src: './images/skills/mysql.svg',
-        keyword: 'Bases de Datos',
-    },
-    {
         name: 'Pandas',
         src: './images/skills/pandas.svg',
         keyword: 'Analitica',
@@ -30,13 +15,38 @@ export const skills = [
         keyword: 'Disenio',
     },
     {
+        name: 'Power BI',
+        src: './images/skills/powerbi.svg',
+        keyword: 'Analitica',
+    },
+    {
+        name: 'MySQL',
+        src: './images/skills/mysql.svg',
+        keyword: 'Bases de Datos',
+    },
+    {
+        name: 'Google Cloud SQL',
+        src: './images/skills/cloudsql.svg',
+        keyword: 'Bases de Datos',
+    },
+    {
+        name: 'EC2, RDS, R3',
+        src: './images/skills/aws.svg',
+        keyword: 'Analitica',
+    },
+    {
         name: 'PostgresSQL',
         src: './images/skills/postgres.svg',
         keyword: 'Bases de Datos',
     },
     {
-        name: 'Power BI',
-        src: './images/skills/powerbi.svg',
+        name: 'PowerAutomate',
+        src: './images/skills/powerautomate.svg',
+        keyword: 'Otras',
+    },
+    {
+        name: 'Looker Studio',
+        src: './images/skills/looker.svg',
         keyword: 'Analitica',
     },
     {

@@ -59,7 +59,7 @@
                 <div class="link"><Link to='/About_me'><p>About me</p></Link></div>
                 <div class="link"><Link to='/Skills'><p>Skills</p></Link></div>
                 <div class="link"><Link to='/Projects'><p>Projects</p></Link></div>
-                <div class="link"><p>Contact</p></div>
+                <!-- <div class="link"><p>Contact</p></div> -->
             </div>
         </div>
         <div class="bottom-side">
@@ -108,9 +108,9 @@
         <About_me/>
     </Route>
 
-    <Route path='/Contactame'>
+    <!-- <Route path='/Contactame'>
         <Contactame/>
-    </Route>
+    </Route> -->
     <Footer/>
     
 </Router>
